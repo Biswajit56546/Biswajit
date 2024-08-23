@@ -1,12 +1,12 @@
 body{
   background-color: red;
 }
-.banner {
+.banner{
   height: 100px;
   width: 100%;
   margin: 0px;
 }
-.home-icon {
+.home-icon{
   height: 18px; width: 180px;
   background-color: white;
   box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.3);
@@ -14,7 +14,7 @@ body{
   position: absolute; top: 4px; left: 10px;
 }
 
-.home-icon a {
+.home-icon a{
   font-size: 8px;
   padding-inline: 10px;
   pointer: cursor;
@@ -22,7 +22,7 @@ body{
   position: relative; top: -3px;
   z-index: 0;
 }
-.home-icon a:hover {
+.home-icon a:hover{
   background-color: #white;
   position: relative; top: -5.7px; left: 2px;
   border-radius: 9px;
