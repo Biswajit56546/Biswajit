@@ -27,7 +27,7 @@
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   height: 14px;
 }
-body {
+.body {
   margin: 0px;
   background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
   height: 3000px;width: 100%;
