@@ -1,6 +1,6 @@
 body{
   background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
-  height: 2000px;width: 100%;
+  height: 2000px;width: 30vw;
   overflow: hidden;
 }
 .home-icon {
