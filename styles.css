@@ -1,6 +1,6 @@
 .banner {
   height: 100px;
-  width: 200px;
+  width: 100%;
   background-image: url('20240815_021818.jpg');
   margin: 0px;
 }
@@ -30,7 +30,7 @@
 body {
   margin: 0px;
   background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
-  height: 3000px;width: 200px;
+  height: 3000px;width: 100%;
  }
 .menu {
   display: flex;
@@ -105,7 +105,7 @@ body {
 
 .box1 {
   height: 165px;
-  width: 273px;
+  width: 500px;
   background: linear-gradient(to bottom right, rgba(146,149,194,255), rgba(255,255,255,1));
   position: absolute; top: 35px; left: 40px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
