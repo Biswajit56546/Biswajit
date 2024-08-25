@@ -30,9 +30,6 @@ body{
   background: linear-gradient(to bottom right, rgba(146,149,194,255), rgba(255,255,255,1));
   position: absolute; top: 50px; left: 30px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 .over-box1 {
   height: 70px; width: 250px;
