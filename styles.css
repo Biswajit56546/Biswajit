@@ -1,6 +1,6 @@
 body{
   background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
-  height: 2000px;width: 100px;
+  height: 2000px;width: 100%;
 }
 .home-icon {
   height: 18px; width: 180px;
