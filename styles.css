@@ -1,13 +1,14 @@
 body{
 
   padding: 25px;
-	height: 1vh;
-	width: 1vw;
+	overflow: hidden;
 
 }
 
-.title {
+.content {
 
-	color: #5C6AC4;
+	color: red;
+	height: 20px;
+	width: 40px;
 
 }
