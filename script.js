@@ -1,5 +1,5 @@
 // Function to set viewport size
-function setViewportSize(width, height) {
+function setViewportSize(30, 30) {
     const viewport = document.getElementById('viewport');
     viewport.style.width = `${width}px`;
     viewport.style.height = `${height}px`;
