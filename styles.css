@@ -212,3 +212,51 @@ p9 {
   position: absolute; top: 48px; left: 300px;
   font-size: 30px;
 }
+.stage{
+  height: 400px;width: 100%;
+  background-color: white;
+  position: relative;top: 150px;
+  display: flex; align-items: center; justify-content: center;
+}
+.circle{
+  margin-top: -25px;height: 100px;width: 100px;
+  background-color: white;border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+#circle1 {position: absolute; top: 60px; left: 50px;}
+#circle2 {position: absolute; top: 170px; left: 150px;}
+#circle3 {position: absolute; top: 280px; left: 50px;}
+#circle4 {
+  position: relative; top: 11px;left:0px;
+  animation: shadowAnimation 4s infinite;
+}
+
+#circle5 {position: absolute; top: 60px; right: 50px;}
+#circle6 {position: absolute; top: 170px; right: 150px;}
+#circle7 {position: absolute; top: 280px; right: 50px;}
+.stick {
+  margin-top: -25px;height: 5px;width: 50px;
+  background: linear-gradient(460deg,rgba(135, 206, 250, 0.8) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 182, 193, 0.8) 100%);
+  position: absolute;
+  background-size: 200% 100%;
+  animation: moveInCircle 2s linear infinite;
+  filter: blur(0.5px);border-radius: 3px;
+ }
+#stick1 {top: 110px;left: 80px;transform: rotate(20deg);}
+#stick2 {top: 220px;left: 200px;}
+#stick3 {top: 330px;left: 80px;transform: rotate(-20deg);}
+#stick4 {top: 110px;left: 780px;transform: rotate(160deg);}
+#stick5 {top: 220px;left: 700px;transform: rotate(180deg);}
+#stick6 {top: 330px;left: 780px;transform: rotate(200deg);}
+
+@keyframes moveInCircle {
+  100% {position: absolute;top: 220px;left: 48.5%;}
+}
+@keyframes shadowAnimation {
+  0% {box-shadow: none;}
+  40% {box-shadow: none;}
+  50% {box-shadow: 0px 0px 60px rgba(135, 206, 235, 0.8);}
+
+  100% {box-shadow: none;}
+}
+
