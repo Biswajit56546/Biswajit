@@ -204,7 +204,7 @@ p9 {
   position: absolute;top: 15px;left: 15px;
 }
 #h11 {
-  position: absolute; top: 55px; font-size: 27px;left: 20px;
+  position: absolute; top: 50px; font-size: 27px;left: 20px;
   font-weight: bold;
   
 }
@@ -262,7 +262,7 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: white;
-  position: relative;top: 3430px;left: 400px;
+  position: relative;top: 2900px;left: 400px;
   margin: 15px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
