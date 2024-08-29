@@ -215,7 +215,7 @@ p9 {
 .stage{
   height: 400px;width: 100%;
   background-color: white;
-  position: relative;top: 150px;
+  position: relative;top: 3700px;
   display: flex; align-items: center; justify-content: center;
 }
 .circle{
