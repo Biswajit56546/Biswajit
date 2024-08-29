@@ -177,3 +177,38 @@ font-size: 15px;
   font-size: 22px;
   color: #927ffb;
 }
+#shell8 {
+  height: 590px; width: 220px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  position: relative; top: 790px; left: 46px;
+}
+.connect {
+  height: 40px;width: 110px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  border-radius: 14px;
+  position: absolute;top: 370px;left: 45px;
+}
+p9 {
+  font-size: 20px;
+  position: absolute;top: 9px;left: 30px;
+  color: #8484a8;
+}
+.mini {
+  height: 560px;width: 170px;
+  background-color: white;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
+  border-radius: 26px;
+  position: absolute;top: 15px;left: 15px;
+}
+#h11 {
+  position: absolute; top: 55px; font-size: 27px;left: 20px;
+  font-weight: bold;
+  
+}
+#heart {
+  position: absolute; top: 48px; left: 300px;
+  font-size: 30px;
+}
