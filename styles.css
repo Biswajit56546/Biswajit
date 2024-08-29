@@ -269,16 +269,16 @@ p9 {
 }
 h {
   font-weight: bold; font-size: 40px;
-  position: relative;top: 3770px;left: 20px;
+  position: relative;top: 400px;left: 20px;
   color: #6e6e8c;
 }
 p {
-  font-size: 18px;
-  position: relative;top: 3770px;left: 20px;
+  font-size: 13px;
+  position: relative;top: 420px;left: 20px;
   color: #8484a8;
 }
 h10 {
-  position: relative;top: 3480px;left: 20px;
+  position: relative;top: 550px;left: 20px;
   color: #6e6e8c;
   font-weight: bold; font-size: 32px;
 }
@@ -286,28 +286,27 @@ h10 {
   height: 160px; width: 290px;
   background-color: white;
   margin: 10px;
-  position: relative;left: 17px;top: 3530px;
+  position: relative;left: 17px;top: 600px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 .img {
   height: 350px;width: 940px;
-  position: relative;top: 3600px;left: 20px;
-  background-color: black;
+  position: relative;top: 750px;left: 20px;
   background-image: url('https://assets.onecompiler.app/42pumarae/42q2er55z/1000017283.jpg');
   border-radius: 20px;
 }
 .sayari{
   height: 160px; width: 290px;
   background-color: white;
-  position: relative;top: 3700;left: 15px;
+  position: relative;top: 810px;left: 15px;
   border-radius: 25px;
   margin: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   z-index: 1;
 }
 #h11 {
-  position: relative;top: 3670px;
+  position: relative;top: 770px;
 }
 .more {
   height: 60px;width: 60px;
@@ -329,7 +328,7 @@ h10 {
   display: none;
   z-index: 10;
   border-radius: 20px;
-  position: absolute;top: 5400px;
+  position: absolute;top: 900px;
 }
 #hd1 {
     left: 20px;
@@ -343,7 +342,7 @@ h10 {
 .contact {
   height: 450px;width: 100%;
   background-color: black;
-  position: relative;top: 4300px;
+  position: relative;top: 1000px;
   color: white;
 }
 h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;}
