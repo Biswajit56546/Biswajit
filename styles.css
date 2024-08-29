@@ -28,6 +28,7 @@ body{
 .box1 {
   height: 490px;
   width: 780px;
+  background-image: url('https://assets.onecompiler.app/42pumarae/42qn7n6we/1000017968.jpg');
   background: linear-gradient(to bottom right, rgba(146,149,194,255), rgba(255,255,255,1));
   position: absolute; top: 150px; left: 110px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
