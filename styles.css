@@ -270,7 +270,7 @@ p9 {
 }
 h {
   font-weight: bold; font-size: 40px;
-  position: relative;top: 1100px;left: 20px;
+  margin-top: 1200px;margin-left: 20px;
   color: #6e6e8c;
 }
 p {
