@@ -263,18 +263,18 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: white;
-  position: relative;top: 1100px;left: 400px;
+  position: relative;top: 800px;left: 400px;
   margin: 15px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 h {
-  font-weight: bold; font-size: 40px;
+  font-weight: bold; font-size: 28px;
   position: relative; top: 1390px; left: 20px;
   color: #6e6e8c;
 }
 p {
-  font-size: 21px;
+  font-size: 10px;
   position: relative;top: 1400px;left: 20px;
   color: #8484a8;
 }
