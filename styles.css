@@ -106,14 +106,14 @@ p8 {
 .h1 {
   font-size: 40px;
   font-width: bold;
-  position: absolute; top: 300px; left: 30px;
+  position: absolute; top: 300px;
   color: #6e6e8c;
   font-family: Arial;
 }
 .p1 {
   font-size: 20px;
   font-family: calibri;
-  position: absolute; top: 340px; left: 33px;
+  position: absolute; top: 340px; left: 22px;
   color: #8484a8;
 }
 #shell5 {
@@ -263,23 +263,23 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: white;
-  position: relative;top: 300px;left: 400px;
+  position: relative;top: 1100px;left: 400px;
   margin: 15px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 h {
   font-weight: bold; font-size: 40px;
-  margin-top: 1200px;margin-left: 20px;
+  position: relative; top: 1390px; left: 20px;
   color: #6e6e8c;
 }
 p {
-  font-size: 13px;
-  position: relative;top: 720px;left: 20px;
+  font-size: 21px;
+  position: relative;top: 1400px;left: 20px;
   color: #8484a8;
 }
 h10 {
-  position: relative;top: 550px;left: 20px;
+  position: relative;top: 2200px;left: 20px;
   color: #6e6e8c;
   font-weight: bold; font-size: 32px;
 }
@@ -287,27 +287,27 @@ h10 {
   height: 160px; width: 290px;
   background-color: white;
   margin: 10px;
-  position: relative;left: 17px;top: 600px;
+  position: relative;left: 17px;top: 2500px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 .img {
   height: 350px;width: 940px;
-  position: relative;top: 750px;left: 20px;
+  position: relative;top: 2700px;left: 20px;
   background-image: url('https://assets.onecompiler.app/42pumarae/42q2er55z/1000017283.jpg');
   border-radius: 20px;
 }
 .sayari{
   height: 160px; width: 290px;
   background-color: white;
-  position: relative;top: 810px;left: 15px;
+  position: relative;top: 2900px;left: 15px;
   border-radius: 25px;
   margin: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   z-index: 1;
 }
 #h11 {
-  position: relative;top: 770px;
+  position: relative;top: 3000px;
 }
 .more {
   height: 60px;width: 60px;
@@ -415,4 +415,5 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   position: absolute; 
   top: 20px; right: 30px; 
   font-size: 20px;
-}
+  }
+                                                 
