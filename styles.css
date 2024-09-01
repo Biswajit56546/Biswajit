@@ -263,14 +263,14 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: white;
-  position: relative;top: 1140px;left: 400px;
+  position: relative;top: 1150px;left: 400px;
   margin: 15px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 h {
   font-weight: bold; font-size: 28px;
-  position: relative; top: 1390px; left: 20px;
+  position: relative; top: 1370px; left: 20px;
   color: #6e6e8c;
 }
 p {
@@ -279,7 +279,7 @@ p {
   color: #8484a8;
 }
 h10 {
-  position: relative;top: 2200px;left: 20px;
+  position: relative;top: 1490px;left: 20px;
   color: #6e6e8c;
   font-weight: bold; font-size: 32px;
 }
@@ -287,27 +287,27 @@ h10 {
   height: 160px; width: 290px;
   background-color: white;
   margin: 10px;
-  position: relative;left: 17px;top: 2500px;
+  position: relative;left: 17px;top: 1540px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 .img {
   height: 350px;width: 940px;
-  position: relative;top: 2700px;left: 20px;
+  position: relative;top: 1640px;left: 20px;
   background-image: url('https://assets.onecompiler.app/42pumarae/42q2er55z/1000017283.jpg');
   border-radius: 20px;
 }
 .sayari{
   height: 160px; width: 290px;
   background-color: white;
-  position: relative;top: 2900px;left: 15px;
+  position: relative;top: 1790px;left: 15px;
   border-radius: 25px;
   margin: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   z-index: 1;
 }
 #h11 {
-  position: relative;top: 3000px;
+  position: relative;top: 1740px;
 }
 .more {
   height: 60px;width: 60px;
@@ -329,7 +329,7 @@ h10 {
   display: none;
   z-index: 10;
   border-radius: 20px;
-  position: absolute;top: 900px;
+  position: absolute;top: 1770px;
 }
 #hd1 {
     left: 20px;
@@ -343,7 +343,7 @@ h10 {
 .contact {
   height: 450px;width: 100%;
   background-color: black;
-  position: relative;top: 1000px;
+  position: relative;top: 2000px;
   color: white;
 }
 h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;}
