@@ -305,6 +305,15 @@ p9 {
   transform: scale(1.2);
   background-color: white;
 }
+h40{
+  font-size: 22px; font-weight: bold;
+  color: white; 
+  position: absolute; top: 30px; left: 20px;
+}
+p40{
+  font-size: 16px; color: #95989f;
+  position: absolute; top: 70px; left: 18px;
+}
 h {
   font-weight: bold; font-size: 28px;
   position: relative; top: 1370px; left: 20px;
