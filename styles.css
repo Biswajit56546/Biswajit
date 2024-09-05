@@ -43,7 +43,7 @@ h5 {
   font-weight: bold;
   color: #6e6e8c;
   padding-inline: 45px;
-  position: relative;top: 30px;left: 40px;
+  position: relative;top: 30px;left: 20px;
 }
 p5 {
   font-size: 14px;
@@ -66,6 +66,7 @@ h6 {
 }
 .yes:hover {
   transform: scale(1.3);
+  opacity: 0;
   background-color: #4d2ea3;
 }
 #yes {left: 515px;}
@@ -108,7 +109,7 @@ p30:hover{
   transition: transform 0.3s ease;
 }
 .shell:hover{
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 #shell2 { margin-left: 48px;}
 #shell4 { margin-left: 48px; margin-top: 80px;}
@@ -141,7 +142,7 @@ p30:hover{
   
 }
 #shell6 {
-   position: absolute; top: 1910px; left:521px;}
+   position: absolute; top: 1910px; left:521px; box-shadow: inset 2px 2px 9px rgba(0,0,0,0.3);}
 #shell7 {
   position: absolute; left: 736px; top: 1910px;
 }
@@ -182,11 +183,19 @@ font-size: 15px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   z-index: 10;
   display: flex;align-items: center;justify-content: center;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+  transform: scale(1.1);
 }
 .btn1 {
   text-decoration: none;
   font-size: 22px;
   color: #927ffb;
+}
+.btn1:hover{
+  transform: scale(1.1);
+  background: linear-gradient(to top right, #d6f0ff, white);
 }
 #shell8 {
   height: 590px; width: 220px;
@@ -201,6 +210,10 @@ font-size: 15px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   border-radius: 14px;
   position: absolute;top: 370px;left: 45px;
+}
+.connect:hover{
+  transform: scale(1.1);
+  background: linear-gradient(to top right, #d6f0ff, white);
 }
 p9 {
   font-size: 20px;
@@ -233,6 +246,9 @@ p9 {
   margin-top: -25px;height: 100px;width: 100px;
   background-color: white;border-radius: 50%;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px: color: #6e6e8c; 
+  transition: all 0.3s ease;
 }
 #circle1 {position: absolute; top: 60px; left: 50px;}
 #circle2 {position: absolute; top: 170px; left: 150px;}
