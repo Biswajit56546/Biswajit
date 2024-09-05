@@ -48,13 +48,13 @@ h5 {
 p5 {
   font-size: 14px;
   color: #8484a8;
-  position: relative;top: -15px;left: 110px;
+  position: relative;top: -15px;left: 85px;
 }
 h6 {
   font-size: 22px;
   color: #6e6e8c;
   font-weight: bold;
-  position: absolute;top: 60px;left: 95px;
+  position: absolute;top: 60px;left: 65px;
 }
 .yes {
   height: 40px;width: 60px;
