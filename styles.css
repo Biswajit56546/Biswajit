@@ -307,7 +307,7 @@ p9 {
 }
 h40{
   font-size: 22px; font-weight: bold;
-  color: white; 
+  color: white; letter-spacing: 2px;
   position: absolute; top: 30px; left: 20px;
 }
 p40{
