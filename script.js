@@ -33,3 +33,7 @@ function toggleDiv3() {
   const hiddenDiv = document.getElementById('hd3');
   hiddenDiv.style.display = hiddenDiv.style.display === 'none' ? 'block' : 'none';
 }
+function hideBothDivs() {
+    document.getElementById('yes').style.display = "none";
+    document.getElementById('no').style.display = "none";
+}
