@@ -211,6 +211,7 @@ font-size: 15px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   border-radius: 14px;
   position: absolute;top: 370px;left: 45px;
+  transition: all 0.4s ease;
 }
 .connect:hover{
   transform: scale(1.1);
@@ -332,10 +333,47 @@ h10 {
 .promise {
   height: 160px; width: 290px;
   background-color: white;
-  margin: 10px;
+  margin: 10px;z-index: 0;
   position: relative;left: 17px;top: 1540px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.promise .mini{
+  height: 110px;width: 240px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.3);
+  position: absolute;top: 25px;left: 25px;
+  transition: all 0.3s ease;
+}
+.promise .mini:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+p45 {
+  font-size: 15px;
+  color: #8484a8;
+  position: absolute;top: 9px;left: 10px;right: 5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.mini textarea{
+  height: 100%;width: 100%;
+  border-radius: 15px;
+  outline: none;border: none;
+  padding: 8px;
+}
+.submit-btn {
+  height: 40px;width: 90px;
+  color: #8484a8;
+  outline: none;
+  border: none;z-index: 1;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
+  position: relative;top: 1920px;left: 64px;
+  transition: transform 0.3s ease;
+}
+.submit-btn:hover {
+  transform: scale(1.1);
 }
 .img {
   height: 350px;width: 940px;
@@ -462,4 +500,5 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   top: 20px; right: 30px; 
   font-size: 20px;
   }
-                                                 
+
+  
