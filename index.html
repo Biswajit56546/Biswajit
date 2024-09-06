@@ -1,5 +1,7 @@
 <html>
  <head>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
   <link rel="stylesheet" href="styles.css"> 
@@ -204,7 +206,7 @@
      <td> 
       <div class="promise"><div class="mini" id="mini-3"><p45>promise you to never let you cry.... Agar galti ke wajah se ho bhi jaye toh me hi sambha<br>lunga, sorry bhi bolunga, aur chup karaunga.....🫂</p45></div></div></td> 
     </tr> 
-         <form action="https://api.web3forms.com/submit" method="POST"> 
+         <form action="https://api.web3forms.com/submit" method="POST"> 
             <input type="hidden" name="access_key" value="4f1b5b02-957f-419c-ab70-cdd04543479d"> 
     <tr> 
      <td> 
@@ -215,16 +217,56 @@
       <div class="promise"><div class="mini" id="mini4"><textarea placeholder="make a promise" name="promise"></textarea></div></div></td> 
     </tr>
     <button type="submit" class="submit-btn">Make</button>
-        <button type="submit" class="submit-btn" style="left: 49px;">Make</button> 
-    <button type="submit" class="submit-btn" style="left: 90px;">Make</button> 
+        <button type="submit" class="submit-btn" style="left: -200px;">Make</button> 
+    <button type="submit" class="submit-btn" style="left: 25px;">Make</button> 
     </form>
    </tbody> 
   </table> 
-  <div class="img"> 
-   <div class="click"> 
-    <div class="here"></div> 
-   </div> 
-  </div> <h10 id="h11">
+  </div>
+  
+        <div class="cont">
+
+        <div class="mouse"></div>
+
+        <div class="app">
+            <div class="app__bgimg">
+                <div class="app__bgimg-image app__bgimg-image--1">
+                </div>
+                <div class="app__bgimg-image app__bgimg-image--2">
+                </div>
+            </div>
+            <div class="app__img">
+                <img onmousedown="return false" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/whiteTest4.png" alt="city" />
+            </div>
+            
+            <div class="app__text app__text--1">
+                <div class="app__text-line app__text-line--4">🎵Bas kr ji hu bs kr jii<br>Ek baat asan na lass kr jii🎵</div>
+                <div class="app__text-line app__text-line--3">You are the brightest star I knew<br>
+Among the chosen, rare and true<br>
+You are so close to me, <br>
+but as fas as the stars<br>
+I wish you to be mine forever<br>
+Love me like no one else ever</div>
+                <div class="app__text-line app__text-line--2"></div>
+                <div class="app__text-line app__text-line--1"><audio controls><source src="" type="audio/mpeg"></audio></div>
+            </div>
+            
+            <div class="app__text app__text--2">
+                <div class="app__text-line app__text-line--4">🎵Kyu unki hi raha dekhe man bawla<br>ye lamhe bhi dheere dheere bite sajna🎵</div>
+                <div class="app__text-line app__text-line--3"></div>
+                <div class="app__text-line app__text-line--2"></div>
+                <div class="app__text-line app__text-line--1"><audio controls><source src="" type="audio/mpeg"></audio></div>
+            </div>
+        </div>
+        <div class="pages">
+            <ul class='pages__list'>
+                <li data-target='1' class='pages__item pages__item--1 page__item-active'></li>
+                <li data-target='2' class='pages__item pages__item--2'></li>
+            </ul>
+        </div>
+    </div>
+  
+  <h10 id="h11">
     Love in Words..... 
   </h10> 
   <table> 
@@ -279,6 +321,7 @@
     AOS.init({
       duration: 1000, 
     });
-  </script>
+  </script> 
  </body>
 </html>
+                            
