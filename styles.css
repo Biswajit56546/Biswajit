@@ -328,7 +328,7 @@ p {
 h10 {
   position: relative;top: 1490px;left: 20px;
   color: #6e6e8c;
-  font-weight: bold; font-size: 32px;
+  font-weight: bold; font-size: 35px;
 }
 .promise {
   height: 160px; width: 290px;
@@ -407,7 +407,7 @@ p45 {
   display: none;
   z-index: 10;
   border-radius: 20px;
-  position: absolute;top: 6170px;
+  position: absolute;top: 6270px;
 }
 #hd1 {
     left: 20px;
