@@ -322,7 +322,7 @@ h {
 }
 p {
   font-size: 20px;
-  position: relative;top: 1390px;left: 20px;
+  position: absolute;top: 1390px;left: 20px;
   color: #8484a8;
 }
 h10 {
