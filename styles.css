@@ -297,7 +297,7 @@ p9 {
   height: 180px;width: 250px;
   background-color: #091114;
   position: relative;top: 1150px;left: 400px;
-  margin: 15px;
+  margin: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   transition: all 0.3s ease;
@@ -316,12 +316,12 @@ p40{
   position: absolute; top: 70px; left: 18px;
 }
 h {
-  font-weight: bold; font-size: 28px;
+  font-weight: bold; font-size: 35px;
   position: relative; top: 1370px; left: 20px;
   color: #6e6e8c;
 }
 p {
-  font-size: 8px;
+  font-size: 17px;
   position: relative;top: 1390px;left: 20px;
   color: #8484a8;
 }
@@ -369,7 +369,7 @@ p45 {
   background-color: white;
   border-radius: 12px;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
-  position: relative;top: 1920px;left: -425px;
+  position: relative;top: 1920px;left: -525px;
   transition: transform 0.3s ease;
 }
 .submit-btn:hover {
