@@ -369,7 +369,7 @@ p45 {
   background-color: white;
   border-radius: 12px;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
-  position: relative;top: 1920px;left: -525px;
+  position: relative;top: 1920px;left: -500px;
   transition: transform 0.3s ease;
 }
 .submit-btn:hover {
