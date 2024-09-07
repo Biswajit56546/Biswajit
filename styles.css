@@ -134,6 +134,48 @@ p30:hover{
   margin-top: 80px;
   position: relative;
 }
+.bg-shape1{
+  height: 100px; width: 100px;
+  border-radius: 9999px;
+  position: relative;
+  animation: one 20s infinite;
+}
+
+.bg-shape2{
+  height: 80px; width: 80px;
+  border-radius: 9999px;
+  position: relative;
+  animation: two 20s infinite;
+}
+@keyframes one {
+  0% {left: 0; top: 0;}
+  25% {left: 120px; top: 200px;}
+  50% {left: 50px; top: 140px;}
+  75% {left: 115px; top: 300px;}
+  100% {left: 0; top: 0;}
+}
+@keyframes two {
+  0% {left: 0; top: 0;}
+  25% {left: 50px; top: 120px;}
+  50% {left: 10px; top: 200px;}
+  75% {left: 100px; top: 40px;}
+  100% {left: 0; top: 0;}
+}
+.opacity-50 {
+  opacity: 0.8;
+}
+.bg-blur {
+  filter: blur(60px);
+}
+.bg-primary {
+  background-color: rgb(30, 0, 255);
+}
+.bg-teal {
+  background-color: rgb(255, 72, 173);
+}
+.bg-purple {
+  background-color: rgb(140, 0, 215);
+}
 #shell6,#shell7 {
   height: 590px; width: 200px;
   background-color: white;
@@ -292,6 +334,33 @@ p9 {
   50% {box-shadow: 0px 0px 60px rgba(135, 206, 235, 0.8);}
 
   100% {box-shadow: none;}
+}
+#one { animation: move 30s infinite; background-color: #ec89fc; height: 150px; width: 150px; opacity: 0.6;}
+#two { animation: moving 40s infinite; background-color: #c0ae1c; height: 120px; width: 120px; opacity: 0.5;}
+#three { animation: moved 20s infinite; background-color: #45a5fc; opacity: 0.7px;}
+@keyframes move {
+  0% {left: 0; top: 0;}
+  20% {left: -200px; top: -80px;}
+  40% {left: -250px; top: 20px;}
+  60% {left: -100px; top: -60px;}
+  90% {left: 150px; top: 30px;}
+  100% {left: 0px; top: 0px;}
+}
+@keyframes moved {
+  0% {left: 0; top: 0;}
+  20% {left: 200px; top: 80px;}
+  40% {left: 250px; top: -60px;}
+  60% {left: 100px; top: 30px;}
+  90% {left: -150px; top: -30px;}
+  100% {left: 0px; top: 0px;}
+}
+@keyframes moving {
+  0% {left: 0; top: 0;}
+  20% {left: 0px; top: -90px;}
+  40% {left: -200px; top: -30px;}
+  60% {left: 160px; top: -50px;}
+  90% {left: 250px; top: 80px;}
+  100% {left: 0px; top: 0px;}
 }
 .wish {
   height: 180px;width: 250px;
