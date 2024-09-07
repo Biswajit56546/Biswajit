@@ -296,7 +296,7 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: #091114;
-  position: relative;top: 1150px;left: 400px;
+  position: relative;top: 1100px;left: 400px;
   margin: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
@@ -316,12 +316,12 @@ p40{
   position: absolute; top: 70px; left: 18px;
 }
 h {
-  font-weight: bold; font-size: 31px;
+  font-weight: bold; font-size: 30px;
   position: relative; top: 1370px; left: 20px;
   color: #6e6e8c;
 }
 p {
-  font-size: 12px;
+  font-size: 9px;
   position: relative;top: 1390px;left: 20px;
   color: #8484a8;
 }
