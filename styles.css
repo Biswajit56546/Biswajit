@@ -303,7 +303,7 @@ p9 {
 #circle2 {position: absolute; top: 170px; left: 150px;}
 #circle3 {position: absolute; top: 280px; left: 50px;}
 #circle4 {
-  position: relative; top: 11px;left:0px;
+  position: relative; top: 11px;left: -100px;
   animation: shadowAnimation 4s infinite;
 }
 
