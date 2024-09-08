@@ -7,7 +7,7 @@ body{
   height: 700px; width: 100%;
   position: relative; top: 1930px; background-color: white;
   overflow: hidden; display: flex;
-  mask-image: linear-gradient(to right, #000, transparent);
+  mask-image: linear-gradient(to right, #000 5%, transparent 6%, transparent 94%, #000 5%);
 }
 .items {
   height: 480px; width: auto;
