@@ -115,7 +115,7 @@ p30:hover{opacity: 1;}
   position: absolute; top: 300px; color: #6e6e8c; font-family: "Exo", sans-serif; user-select: none;
 }
 .p1 {
-  font-size: 15px; user-select: none;
+  font-size: 18px; user-select: none;
   position: absolute; top: 340px; left: 22px; color: #8484a8;
 }
 #shell5 {
@@ -175,7 +175,7 @@ p30:hover{opacity: 1;}
 }
 #p2 {margin-top: 167px; font-size: 12px; user-select: none;}
 #h3 {margin-top: 80px; color: #927ffb; font-size: 30px; font-weight: bold; font-family: "Exo", sans-serif; user-select: none;}
-#p3 {margin-top: 77px; color: #8484a8; font-size: 15px; user-select: none;}
+#p3 {margin-top: 77px; color: #8484a8; font-size: 12px; user-select: none;}
 .btn {
   height: 50px;width: 50px;
   position: absolute;top: 488px;left: 130px;
