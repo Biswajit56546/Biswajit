@@ -22,6 +22,9 @@ body{
   from {left: 100%;}
   to {left: -13300px;}
 }
+.slider:hover .items {
+  animation-play-state: paused;
+}
 .home-icon {
   height: 60px; width: 530px;
   background-color: white;
@@ -232,7 +235,6 @@ p9 {
 }
 .circle:hover{
   transform: scale(1.06);
-  background: linear-gradient(to top right, #d6f0ff, white);
 }
 #circle1 {position: absolute; top: 60px; left: 50px;}
 #circle2 {position: absolute; top: 170px; left: 150px;}
