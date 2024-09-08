@@ -1,33 +1,45 @@
 body{
   background: red;
   height: 10000px;width: 100%;
-  background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  background-color: rgba(255, 255, 255, 1);
+}
+.slider {
+  height: 700px; width: 100%;
+  position: relative; top: 1930px; background-color: white;
+  overflow: hidden; display: flex;
+}
+.items {
+  height: 480px; width: auto;
+  position: relative; top: 110px;left: 100%;
+  user-select: none; background-color: white; margin-right: 130px;
+  animation: scroll-2 80s linear infinite;
+}
+.items img {
+  height: 480px; width: 700px;  user-select: none; z-index: 0;
+}
+@keyframes scroll-2 {
+  from {left: 100%;}
+  to {left: -13300px;}
 }
 .home-icon {
   height: 60px; width: 530px;
   background-color: white;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3); border-radius: 25px;
   position: absolute; top: 40px; left: 40px;
 }
 .home-icon a {
   font-size: 23px;
-  padding-inline: 34px;
-  pointer: cursor;
-  display: inline-block;
-  position: relative; top: 15px;
-  z-index: 0;
+  padding-inline: 34px; pointer: cursor;
+  display: inline-block; position: relative; top: 15px; z-index: 0;
 }
 .home-icon a:hover {
-  background-color: #white;
+  background-color: #white; height: 40px;
   position: relative; top: 10px; left: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  height: 40px;
 }
 .box1 {
-  height: 490px;
-  width: 780px;
+  height: 490px; width: 780px;
   position: absolute; top: 150px; left: 110px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
@@ -39,53 +51,40 @@ body{
   opacity: 0.8;
 }
 h5 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #6e6e8c;
-  padding-inline: 45px;
+  font-size: 24px; font-weight: bold;
+  color: #6e6e8c; padding-inline: 45px;
   position: relative;top: 30px;left: 20px;
 }
 p5 {
-  font-size: 14px;
-  color: #8484a8;
+  font-size: 14px; color: #8484a8;
   position: relative;top: -15px;left: 95px;
 }
 h6 {
-  font-size: 22px;
-  color: #6e6e8c;
-  font-weight: bold;
+  font-size: 22px; color: #6e6e8c; font-weight: bold;
   position: absolute;top: 60px;left: 65px;
 }
 .yes {
-  height: 40px;width: 60px;
-  background-color: white;
-  border-radius: 17px;
-  position: absolute;top: 105px;
-  transition: all 0.3s ease;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  height: 40px;width: 60px; background-color: white;
+  border-radius: 17px; position: absolute;top: 105px;
+  transition: all 0.3s ease; box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 .yes:hover {
-  transform: scale(1.3);
-  opacity: 0;
-  background-color: #4d2ea3;
+  transform: scale(1.3); opacity: 0; background-color: #4d2ea3;
 }
 #yes {left: 515px;}
 #no {left: 585px}
 p7 {
-  font-size: 18px;
+  font-size: 18px; color: #8484a8;
   position: absolute;top: 10px;left: 15px;
-  color: #8484a8;
 }
 p8 {
-  font-size: 18px;
+  font-size: 18px; color: #8484a8;
   position: absolute;top: 10px;left: 18px;
-  color: #8484a8;
 }
 .box2 {
-    width: 80px;
+    width: 80px; border-radius: 20px;
     background: linear-gradient(to top left, #c469c6, #4d2ea3);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     position: absolute; top: 10px;
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
@@ -93,58 +92,38 @@ p30{
   font-size: 5px; opacity: 0;
   color: white; position: absolute; top: 7px; left: 8px; right: 5px;
 }
-p30:hover{
-  opacity: 1;
-}
-.box2:hover {
-  transform: scale(2.5);
-  z-index: 10;
-}
+p30:hover{opacity: 1;}
+.box2:hover {transform: scale(2.5); z-index: 10;}
 .shell{
-  height: 500px; width: 410px;
-  background-color: white;
+  height: 500px; width: 410px; background-color: white;
   position: relative; top: 800px; left: 50px;
   box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
   border-radius: 30px;
   transition: transform 0.3s ease;
 }
-.shell:hover{
-  transform: scale(1.01);
-}
+.shell:hover{transform: scale(1.01);}
 #shell2 { margin-left: 48px;}
 #shell4 { margin-left: 48px; margin-top: 80px;}
 #shell3 { margin-top: 80px;}
 .h1 {
-  font-size: 40px;
-  font-width: bold;
-  position: absolute; top: 300px;
-  color: #6e6e8c;
-  font-family: Arial;
+  font-size: 40px; font-width: bold;
+  position: absolute; top: 300px; color: #6e6e8c; font-family: Arial;
 }
 .p1 {
-  font-size: 20px;
-  font-family: calibri;
-  position: absolute; top: 340px; left: 22px;
-  color: #8484a8;
+  font-size: 20px; font-family: calibri;
+  position: absolute; top: 340px; left: 22px; color: #8484a8;
 }
 #shell5 {
-  height: 590px; width: 440px;
-  background-color: white;
+  height: 590px; width: 440px; background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  margin-top: 80px;
-  position: relative;
+  margin-top: 80px; position: relative;
 }
 .bg-shape1{
-  height: 100px; width: 100px;
-  border-radius: 9999px;
-  position: relative;
+  height: 100px; width: 100px; border-radius: 9999px; position: relative;
   animation: one 20s infinite;
 }
-
 .bg-shape2{
-  height: 80px; width: 80px;
-  border-radius: 9999px;
-  position: relative;
+  height: 80px; width: 80px; border-radius: 9999px; position: relative;
   animation: two 20s infinite;
 }
 @keyframes one {
@@ -161,37 +140,21 @@ p30:hover{
   75% {left: 100px; top: 40px;}
   100% {left: 0; top: 0;}
 }
-.opacity-50 {
-  opacity: 0.8;
-}
-.bg-blur {
-  filter: blur(60px);
-}
-.bg-primary {
-  background-color: rgb(30, 0, 255);
-}
-.bg-teal {
-  background-color: rgb(255, 72, 173);
-}
-.bg-purple {
-  background-color: rgb(140, 0, 215);
-}
+.opacity-50 {opacity: 0.8;}
+.bg-blur {filter: blur(60px);}
+.bg-primary {background-color: rgb(30, 0, 255);}
+.bg-teal {background-color: rgb(255, 72, 173);}
+.bg-purple {background-color: rgb(140, 0, 215);}
 #shell6,#shell7 {
-  height: 590px; width: 200px;
-  background-color: white;
+  height: 590px; width: 200px; background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   margin-top: 74px;
-  
 }
-#shell6 {
-   position: absolute; top: 1910px; left:521px; box-shadow: inset 2px 2px 9px rgba(0,0,0,0.3);}
-#shell7 {
-  position: absolute; left: 736px; top: 1910px;
-}
+#shell6 {position: absolute; top: 1910px; left:521px; box-shadow: inset 2px 2px 9px rgba(0,0,0,0.3);}
+#shell7 {position: absolute; left: 736px; top: 1910px;}
 .tools {
   position: absolute;top: 200px;left: 100px;
-  color: #927ffb;
-  font-size: 50px;
+  color: #927ffb; font-size: 50px;
   transition: transform 0.3s ease;
 }
 .tools:hover{
@@ -199,31 +162,20 @@ p30:hover{
   transform: scale(1.1);
 }
 #home{
-  margin-top: -10px;margin-left: 200px;
-  font-size: 50px;
+  margin-top: -10px;margin-left: 200px; font-size: 50px;
 }
 #h2 {
-  margin-top: 170px;
-  color: #927ffb;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
+  margin-top: 170px; color: #927ffb;
+  font-size: 30px; font-weight: bold; text-decoration: none;
 }
-#p2 {
-  margin-top: 167px;
-  font-size: 12px;
-}
+#p2 {margin-top: 167px; font-size: 12px;}
 #h3 {margin-top: 80px; color: #927ffb; font-size: 30px; font-weight: bold;}
-#p3 { margin-top: 77px; color: #8484a8;
-font-size: 15px;
-}
+#p3 { margin-top: 77px; color: #8484a8; font-size: 15px;}
 .btn {
   height: 50px;width: 50px;
   position: absolute;top: 488px;left: 130px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  z-index: 10;
+  background-color: white; border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3); z-index: 10;
   display: flex;align-items: center;justify-content: center;
   transition: all 0.3s ease;
 }
@@ -231,28 +183,20 @@ font-size: 15px;
   transform: scale(1.1);
   background: linear-gradient(to top right, #d6f0ff, white);
 }
-.btn1 {
-  text-decoration: none;
-  font-size: 22px;
-  color: #927ffb;
-}
+.btn1 {text-decoration: none; font-size: 22px; color: #927ffb;}
 .btn1:hover{
   transform: scale(1.1);
   background: linear-gradient(to top right, #d6f0ff, white);
 }
 #shell8 {
-  height: 590px; width: 220px;
-  background-color: white;
+  height: 590px; width: 220px;  background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  margin-top: 20px;
-  position: relative; top: 790px; left: 46px;
+  margin-top: 20px; position: relative; top: 790px; left: 46px;
 }
 .connect {
-  height: 40px;width: 110px;
-  background-color: white;
+  height: 40px;width: 110px; background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  border-radius: 14px;
-  position: absolute;top: 370px;left: 45px;
+  border-radius: 14px; position: absolute;top: 370px;left: 45px;
   transition: all 0.4s ease;
 }
 .connect:hover{
@@ -260,26 +204,16 @@ font-size: 15px;
   background: linear-gradient(to top right, #d6f0ff, white);
 }
 p9 {
-  font-size: 20px;
+  font-size: 20px; color: #8484a8;
   position: absolute;top: 9px;left: 30px;
-  color: #8484a8;
 }
 .mini {
-  height: 560px;width: 170px;
-  background-color: white;
+  height: 560px;width: 170px; background-color: white;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
-  border-radius: 26px;
-  position: absolute;top: 15px;left: 15px;
+  border-radius: 26px; position: absolute;top: 15px;left: 15px;
 }
-#h11 {
-  position: absolute; top: 50px; font-size: 27px;left: 25px;
-  font-weight: bold;
-  
-}
-#heart {
-  position: absolute; top: 48px; left: 300px;
-  font-size: 30px;
-}
+#h11 {position: absolute; top: 50px; font-size: 27px;left: 25px; font-weight: bold;}
+#heart {position: absolute; top: 48px; left: 300px; font-size: 30px;}
 .stage{
   height: 400px;width: 100%;
   background-color: white;
@@ -447,14 +381,14 @@ p45 {
 .sayari{
   height: 160px; width: 290px;
   background-color: white;
-  position: relative;top: 1950px;left: 15px;
+  position: relative;top: 2150px;left: 15px;
   border-radius: 25px;
   margin: 10px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   z-index: 1;
 }
 #h11 {
-  position: relative;top: 1900px;
+  position: relative;top: 2100px;
 }
 .more {
   height: 60px;width: 60px;
@@ -476,7 +410,7 @@ p45 {
   display: none;
   z-index: 10;
   border-radius: 20px;
-  position: absolute;top: 6040px;
+  position: absolute;top: 6999px;
 }
 #hd1 {
     left: 20px;
@@ -846,5 +780,3 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   transform: translate(-50%, -50%) scale(1, 1);
   opacity: 1;
 }
-                                     
-                                                 
