@@ -107,7 +107,7 @@ p30:hover{opacity: 1;}
   transition: transform 0.3s ease;
   animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0%;
+  animation-range: entry 20% cover 30%;
 }
 @keyframes appear {
   from {
