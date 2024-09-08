@@ -22,14 +22,6 @@ body{
   from {left: 100%;}
   to {left: -13300px;}
 }
-img:hover .items {
-  animation-play-state: paused;
-  filter: greyscale(1);
-}
-img .items:hover {
-  animation-play-state: running;
-  filter: greyscale(0);
-}
 .home-icon {
   height: 60px; width: 530px;
   background-color: white;
