@@ -22,11 +22,11 @@ body{
   from {left: 100%;}
   to {left: -13300px;}
 }
-.slider:hover .items {
+img:hover .items {
   animation-play-state: paused;
   filter: greyscale(1);
 }
-.slider .items:hover {
+img .items:hover {
   animation-play-state: running;
   filter: greyscale(0);
 }
