@@ -7,7 +7,6 @@ body{
   height: 700px; width: 100%;
   position: relative; top: 1930px; background-color: white;
   overflow: hidden; display: flex;
-  mask-image: linear-gradient(to right, transparent, #000 1% 1%, transparent);
 }
 .items {
   height: 480px; width: auto;
@@ -59,14 +58,15 @@ h5 {
   font-size: 24px; font-weight: bold;
   color: #6e6e8c; padding-inline: 45px;
   position: relative;top: 30px;left: 20px;
+  font-family: "Exo", sans-serif; user-select: none;
 }
 p5 {
   font-size: 14px; color: #8484a8;
-  position: relative;top: -15px;left: 95px;
+  position: relative;top: -15px;left: 95px; user-select: none;
 }
 h6 {
   font-size: 22px; color: #6e6e8c; font-weight: bold;
-  position: absolute;top: 60px;left: 65px;
+  position: absolute;top: 60px;left: 65px; font-family: "Exo", sans-serif; user-select: none;
 }
 .yes {
   height: 40px;width: 60px; background-color: white;
@@ -79,11 +79,11 @@ h6 {
 #yes {left: 515px;}
 #no {left: 585px}
 p7 {
-  font-size: 18px; color: #8484a8;
+  font-size: 18px; color: #8484a8; user-select: none;
   position: absolute;top: 10px;left: 15px;
 }
 p8 {
-  font-size: 18px; color: #8484a8;
+  font-size: 18px; color: #8484a8; user-select: none;
   position: absolute;top: 10px;left: 18px;
 }
 .box2 {
@@ -94,7 +94,7 @@ p8 {
     transition: transform 0.3s ease, z-index 0.3s ease;
 }
 p30{
-  font-size: 7px; opacity: 0;
+  font-size: 7px; opacity: 0; user-select: none;
   color: white; position: absolute; top: 7px; left: 8px; right: 5px;
 }
 p30:hover{opacity: 1;}
@@ -112,10 +112,10 @@ p30:hover{opacity: 1;}
 #shell3 { margin-top: 80px;}
 .h1 {
   font-size: 40px; font-width: bold;
-  position: absolute; top: 300px; color: #6e6e8c; font-family: Arial;
+  position: absolute; top: 300px; color: #6e6e8c; font-family: "Exo", sans-serif; user-select: none;
 }
 .p1 {
-  font-size: 20px; font-family: calibri;
+  font-size: 20px; user-select: none;
   position: absolute; top: 340px; left: 22px; color: #8484a8;
 }
 #shell5 {
@@ -171,11 +171,11 @@ p30:hover{opacity: 1;}
 }
 #h2 {
   margin-top: 170px; color: #927ffb;
-  font-size: 30px; font-weight: bold; text-decoration: none;
+  font-size: 30px; font-weight: bold; text-decoration: none; font-family: "Exo", sans-serif; user-select: none;
 }
-#p2 {margin-top: 167px; font-size: 12px;}
-#h3 {margin-top: 80px; color: #927ffb; font-size: 30px; font-weight: bold;}
-#p3 { margin-top: 77px; color: #8484a8; font-size: 15px;}
+#p2 {margin-top: 167px; font-size: 12px; user-select: none;}
+#h3 {margin-top: 80px; color: #927ffb; font-size: 30px; font-weight: bold; font-family: "Exo", sans-serif; user-select: none;}
+#p3 {margin-top: 77px; color: #8484a8; font-size: 15px; user-select: none;}
 .btn {
   height: 50px;width: 50px;
   position: absolute;top: 488px;left: 130px;
@@ -209,7 +209,7 @@ p30:hover{opacity: 1;}
   background: linear-gradient(to top right, #d6f0ff, white);
 }
 p9 {
-  font-size: 20px; color: #8484a8;
+  font-size: 20px; color: #8484a8; user-select: none;
   position: absolute;top: 9px;left: 30px;
 }
 .mini {
@@ -217,7 +217,7 @@ p9 {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
   border-radius: 26px; position: absolute;top: 15px;left: 15px;
 }
-#h11 {position: absolute; top: 50px; font-size: 27px;left: 25px; font-weight: bold;}
+#h11 {position: absolute; top: 50px; font-size: 27px;left: 25px; font-weight: bold; font-family: "Exo", sans-serif; user-select: none;}
 #heart {position: absolute; top: 48px; left: 300px; font-size: 30px;}
 .stage{
   height: 400px;width: 100%;
@@ -317,25 +317,26 @@ h40{
   font-size: 22px; font-weight: bold;
   color: white; letter-spacing: 2px;
   position: absolute; top: 30px; left: 20px;
+  font-family: "Exo", sans-serif; user-select: none;
 }
 p40{
-  font-size: 13px; color: #95989f;
+  font-size: 13px; color: #95989f; user-select: none;
   position: absolute; top: 70px; left: 18px;
 }
 h {
   font-weight: bold; font-size: 34px;
   position: relative; top: 1370px; left: 20px;
-  color: #6e6e8c;
+  color: #6e6e8c; font-family: "Exo", sans-serif; user-select: none;
 }
 p {
-  font-size: 20px;
+  font-size: 20px; user-select: none;
   position: absolute;top: 3900px;left: 20px;
   color: #8484a8;
 }
 h10 {
   position: relative;top: 1490px;left: 20px;
   color: #6e6e8c;
-  font-weight: bold; font-size: 36px;
+  font-weight: bold; font-size: 36px; font-family: "Exo", sans-serif; user-select: none;
 }
 .promise {
   height: 160px; width: 290px;
@@ -357,8 +358,7 @@ h10 {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 p45 {
-  font-size: 15px;
-  color: #8484a8;
+  font-size: 15px; color: #8484a8; user-select: none;
   position: absolute;top: 9px;left: 10px;right: 5px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
@@ -431,10 +431,10 @@ p45 {
   position: relative;top: 2800px;
   color: white;
 }
-h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;}
-#a1 {font-size: 30px; position: absolute; top: 120px; left: 40px;}
-#a2 {font-size: 30px; position: absolute; top: 200px; left: 40px;}
-#a3 {font-size: 30px; position: absolute; top: 280px; left: 40px;}
+h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold; font-family: "Exo", sans-serif; user-select: none;}
+#a1 {font-size: 30px; position: absolute; top: 120px; left: 40px; user-select: none;}
+#a2 {font-size: 30px; position: absolute; top: 200px; left: 40px; user-select: none;}
+#a3 {font-size: 30px; position: absolute; top: 280px; left: 40px; user-select: none;}
 .menu {
   display: flex;
   flex-direction: column;
@@ -488,7 +488,7 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   font-size: 25px;
   padding: 22px 30px;
   text-decoration: none;
-  display: block;
+  display: block; user-select: none;
 }
 .content a:hover {
   background-color: #F0E8F4;
@@ -499,7 +499,7 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   color: black; 
   position: absolute; 
   top: 20px; right: 30px; 
-  font-size: 20px;
+  font-size: 20px; user-select: none;
   }
   
   
