@@ -303,7 +303,7 @@ p9 {
 #circle2 {position: absolute; top: 170px; left: 150px;}
 #circle3 {position: absolute; top: 280px; left: 50px;}
 #circle4 {
-  position: relative; top: 11px;left: -165px;
+  position: relative; top: 11px;left: -180px;
   animation: shadowAnimation 4s infinite;
 }
 
@@ -438,7 +438,7 @@ p45 {
   background-color: white;
   border-radius: 12px;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.2);
-  position: relative;top: 1920px;left: -510px;
+  position: relative;top: 1920px;left: -504px;
   transition: transform 0.3s ease;
 }
 .submit-btn:hover {
