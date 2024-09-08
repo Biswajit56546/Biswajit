@@ -7,6 +7,7 @@ body{
   height: 700px; width: 100%;
   position: relative; top: 1930px; background-color: white;
   overflow: hidden; display: flex;
+  mask-image: linear-gradient(to right, #000, transparent);
 }
 .items {
   height: 480px; width: auto;
@@ -21,6 +22,14 @@ body{
   from {left: 100%;}
   to {left: -13300px;}
 }
+.slider:hover .items {
+  animation-play-state: paused;
+  filter: greyscale(1);
+}
+.slider .items:hover {
+  animation-play-state: running;
+  filter: greyscale(0);
+}
 .home-icon {
   height: 60px; width: 530px;
   background-color: white;
@@ -33,7 +42,7 @@ body{
   display: inline-block; position: relative; top: 15px; z-index: 0;
 }
 .home-icon a:hover {
-  background-color: #white; height: 40px;
+  background-color: white; height: 40px;
   position: relative; top: 10px; left: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
