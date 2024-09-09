@@ -1,0 +1,55 @@
+<!doctype html>
+<html> 
+ <head>
+   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" href="wishes.css"> 
+  <script src="wishes.js"></script> 
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script> 
+ </head> 
+ <body style="height: 3000px;"> 
+  <div class="bg-shape1 bg-teal opacity-50 bg-blur"></div> 
+  <div class="bg-shape2 bg-primary opacity-50 bg-blur"></div> 
+  <div class="bg-shape1 bg-purple opacity-50 bg-blur"></div> 
+  <div class="menu" onclick="toggleMenu(event)">
+    &nbsp;&nbsp; 
+   <div class="dot"></div> &nbsp;&nbsp; 
+   <div class="dot"></div> &nbsp; 
+  </div> &nbsp; 
+  <div class="content"> <a href="#">Home</a><p1 class="a">
+     &nbsp;&nbsp;&nbsp;&nbsp; &gt; &nbsp;&nbsp; 
+   </p1> <a href="#">Wishes</a><p2 class="a" style="top: 100px; right: 30px;">
+     &nbsp;&nbsp;&nbsp;&nbsp; &gt; &nbsp;&nbsp; 
+   </p2> <a href="#">Song</a><p3 class="a" style="top: 175px; right: 30px">
+     &nbsp;&nbsp;&nbsp;&nbsp; &gt; &nbsp;&nbsp; 
+   </p3> &nbsp; 
+  </div> 
+  <div class="home-icon"> <a>Home</a> <a>Music</a> <a>Video</a> <a>Text</a> 
+  </div> 
+  <div class="banner"> 
+   <div class="sub-banner"> 
+    <div class="circle"></div> 
+    <div class="circle" id="circle-2"></div> <button>Click</button> 
+   </div> 
+  </div> <h20 class="hidden">
+    Wishes from your best half 
+  </h20> 
+  <hr class="hidden"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018114.png" class="photo hidden" style="top: 800px; left: -20px;" data-aos="slide-right"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018115.png" class="photo hidden" style="top: 1100px; right: 10px;"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018116.png" class="photo hidden" style="top: 1400px; left: -20px"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018117.png" class="photo hidden" style="top: 1700px; right: 10px"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018118.png" class="photo hidden" style="top: 2000px; left: -20px"> 
+  <img src="https://assets.onecompiler.app/42pumarae/42qppzstn/1000018119.png" class="photo hidden" style="top: 2300px; right: 10px"> 
+  <form action="https://api.web3forms.com/submit" method="POST"> 
+   <input class="hidden" type="hidden" name="access_key" value="4f1b5b02-957f-419c-ab70-cdd04543479d"> <textarea name="message" placeholder="Make a Wish......." class="text-input hidden"></textarea> <button type="submit" class="submit-btn hidden">Make</button> 
+  </form>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">  
+  </script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+ </body>
+</html>
