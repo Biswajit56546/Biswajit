@@ -116,7 +116,7 @@ p30:hover{opacity: 1;}
     scale: 1;
   }
 }
-.shell:hover{transform: scale(1.01);}
+.shell:hover{transform: scale(1.03);}
 #shell2 { margin-left: 48px;}
 #shell4 { margin-left: 48px; margin-top: 80px;}
 #shell3 { margin-top: 80px;}
