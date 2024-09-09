@@ -116,7 +116,7 @@ p30:hover{opacity: 1;}
     scale: 1;
   }
 }
-.shell:hover{transform: scale(1.03);}
+.shell:hover{transform: scale(1.02) !important;}
 #shell2 { margin-left: 48px;}
 #shell4 { margin-left: 48px; margin-top: 80px;}
 #shell3 { margin-top: 80px;}
@@ -212,10 +212,10 @@ p30:hover{opacity: 1;}
   height: 40px;width: 110px; background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   border-radius: 14px; position: absolute;top: 370px;left: 45px;
-  transition: all 0.4s ease;
+  transition: all 0.4s ease !important;
 }
 .connect:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
   background: linear-gradient(to top right, #d6f0ff, white);
 }
 p9 {
@@ -313,14 +313,14 @@ p9 {
 .wish {
   height: 180px;width: 250px;
   background-color: #091114;
-  position: relative;top: 1350px;left: 400px;
+  position: relative;top: 1350px;left: 390px;
   margin: 20px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease !important;
 }
 .wish:focus{
-  transform: scale(1.2);
+  transform: scale(1.2) !important;
   background-color: white;
 }
 h40{
