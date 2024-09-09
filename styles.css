@@ -498,8 +498,8 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
 }
 .content a {
   color: black;
-  font-size: 25px;
-  padding: 22px 30px;
+  font-size: 30px;
+  padding: 40px 50px;
   text-decoration: none;
   display: block; user-select: none;
 }
