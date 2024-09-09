@@ -284,7 +284,7 @@ p9 {
   100% {box-shadow: none;}
 }
 #one { animation: move 30s infinite; background-color: #ec89fc; height: 150px; width: 150px; opacity: 0.6;}
-#two { animation: moving 40s infinite; background-color: #c0ae1c; height: 120px; width: 120px; opacity: 0.5;}
+#two { animation: moving 40s infinite; background-color: #9A01E2; height: 120px; width: 120px; opacity: 0.5;}
 #three { animation: moved 20s infinite; background-color: #45a5fc; opacity: 0.7px;}
 @keyframes move {
   0% {left: 0; top: 0;}
