@@ -1,0 +1,247 @@
+body {
+  height: 3400px !important; width: 100%;
+  margin: 0px;
+  overflow: auto;
+}
+.banner {
+  height: 620px; width: 100%;
+  position: relative; opacity: 0.7;
+  margin-top: 0px;
+  background: url(https://assets.onecompiler.app/42pumarae/42rksqf2g/1000019904.jpg);
+  z-index: 0;                                
+}
+.sub-banner {
+  height: 480px; width: 670px;
+  background-color: blue;
+  position: absolute; top: 75px; left: 23%;
+  border-radius: 15px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+  background: url(https://assets.onecompiler.app/42pumarae/42rksqf2g/1000019891.jpg);
+}
+.circle {
+  height: 130px; width: 130px;
+  border-radius: 50%;
+  background: linear-gradient(to top left, #45afaa, #c2ebe7);
+  position: absolute; top: 120px; left: -75px;
+  box-shadow: 10px 20px 40px rgb(69, 175, 170, 0.3);
+  animation: roll 0.9s ease-in-out;
+  transition: all 0.7s ease;
+}
+@keyframes roll {
+  0% {
+    transform: rotatex(0deg) translatex(-200px);
+  }
+  100% {
+    transform: rotatex(180deg) translatex(0px);
+  }
+}
+.circle:hover {
+  transform: translatey(-100px) rotate(360deg);
+}
+  
+#circle-2 {
+  height: 80px; width: 80px;
+  background: linear-gradient(to top left, #afd9e7, white);
+  top: -50px; left: 76%;
+  box-shadow: 20px 10px 40px rgb(175, 217, 231, 0.4);
+}
+button {
+  height: 35px; width: 80px;
+  background: linear-gradient(to right, #45afaa, #c2ebe7);
+  border-radius: 15px;
+  outline: none; border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 383px; margin-left: 35%;
+  transition: all 0.4s ease;
+  box-shadow: 4px 4px 10px rgb(69, 175, 170, 0.4);
+}
+button:hover {
+  transform: scale(1.2);
+  background: linear-gradient(350deg, #45afaa, #c2ebe7);
+  font-size: 12px;
+}
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  align-items: center;
+}
+
+.menu.open .dot:nth-child(1) {
+    transform: rotate(45deg) translateY(13px);
+    opacity: 1;
+}
+
+.menu.open .dot:nth-child(2) {
+    transform: rotate(-45deg) translateY(-13px);
+    opacity: 1;
+}
+.dot {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0,0,0,1);
+  border-radius: 2px;
+  transition: transform 0.5s ease;
+  position: relative; top: 10px;right: 10px;
+  z-index: 10;
+}
+.content {
+  position: absolute;
+  top: 47px;
+  left: 0px;
+  background-color: white;
+  color: white;
+  width: 92%; z-index: 1;
+  height: 1300px;
+  display: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  transform: translateX(10%);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+.content.show {
+  display: block;
+  transform: translateX(0%);
+  opacity: 1;
+}
+.content a {
+  color: black;
+  font-size: 30px;
+  padding: 40px 50px;
+  text-decoration: none;
+  display: block; user-select: none;
+}
+.content a:hover {
+  background-color: #F0E8F4;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.a {
+  color: black; 
+  position: absolute; 
+  top: 20px; right: 30px; 
+  font-size: 20px; user-select: none;
+  }
+ .home-icon {
+  height: 45px; width: 397px;
+  background-color: white;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3); border-radius: 25px;
+  position: absolute; top: 36px; left: 10px;
+  z-index: 1;
+  background: linear-gradient(to left, white, #c2ebe7);
+}
+.home-icon a {
+  font-size: 18px;
+  padding-inline: 23.5px; pointer: cursor;
+  display: inline-block; position: relative; top: 10px; z-index: 0;
+}
+.home-icon a:hover {
+  background: linear-gradient(to right, white, #c2ebe7); height: 30px;
+  position: relative; top: 7.5px; left: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+h20 {
+  font-size: 40px !important;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif !important;
+  text-transform: uppercase;
+  color: #6e6e8c !important;
+  position: absolute;top: 750px; left: 20px;
+  letter-spacing: 2px;
+}
+hr {
+  height: 3px;width: 380px;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  margin-left: 1px;
+  z-index: 10;
+  position: absolute;top: 800px;left: 20px;
+}
+.photo {
+  height: 600px; width: 590px;
+  position: absolute;
+}
+.text-input {
+  height: 280px;width: 580px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+  outline: none;border: none;
+  text-decoration: none; font-size: 26px;
+  padding: 30px 30px;
+  position: absolute;top: 2900px;left: 17.7%;
+}
+.text-input:focus {
+  border: 1px solid #8436e8;
+}
+.submit-btn {
+  height: 50px;width: 110px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  position: absolute;top: 2840px;left: 280px;
+  transition: all 0.3s ease;
+}
+.submit-btn:hover {
+  transform: scale(1.1);
+}
+
+.bg-shape1{
+  height: 200px; width: 200px; border-radius: 9999px; position: absolute;
+  animation: one 70s infinite;
+}
+.bg-shape2{
+  height: 180px; width: 180px; border-radius: 9999px; position: absolute;
+  animation: two 60s infinite;
+}
+@keyframes one {
+  0% {left: 100px; top: 400px;}
+  10% {left: 70px; top: 600px;}
+  20% {left: 180px; top: 780px;}
+  30% {left: 235px; top: 2100px;}
+  40% {left: 120; top: 1600px;}
+  50% {left: 30px; top: 1200px;}
+  60% {left: 118px; top: 1600px;}
+  70% {left: 250px; top: 2500px;}
+  80% {left: 140px; top: 1800px;}
+  90% {left: 200px; top: 1100px;}
+  100% {left: 100px; top: 500px;}
+}
+@keyframes two {
+  0% {right: 100px; top: 400px;}
+  10% {right: 70px; top: 600px;}
+  20% {right: 180px; top: 780px;}
+  30% {right: 235px; top: 2100px;}
+  40% {right: 120; top: 1600px;}
+  50% {right: 30px; top: 1200px;}
+  60% {right: 118px; top: 1600px;}
+  70% {right: 250px; top: 2500px;}
+  80% {right: 140px; top: 1800px;}
+  90% {right: 200px; top: 1100px;}
+  100% {right: 100px; top: 500px;}
+}
+
+.opacity-50 {opacity: 0.5;}
+.bg-blur {filter: blur(100px);}
+.bg-primary {background-color: rgb(30, 0, 255);}
+.bg-teal {background-color: rgb(255, 72, 173);}
+.bg-purple {background-color: rgb(140, 0, 215);}
+.hidden {
+  display: none;
+}
+.text-input {
+  display: block;
+}
