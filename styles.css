@@ -102,7 +102,7 @@ p30:hover{opacity: 1;}
 .shell{
   height: 500px; width: 410px; background-color: white;
   position: relative; top: 800px; left: 50px;
-  box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
   border-radius: 30px;
   transition: transform 0.3s ease;
 }
@@ -130,7 +130,7 @@ p30:hover{opacity: 1;}
 }
 #shell5 {
   height: 590px; width: 440px; background-color: white;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
   margin-top: 80px; position: relative;
 }
 .bg-shape1{
@@ -165,7 +165,7 @@ p30:hover{opacity: 1;}
   box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   margin-top: 74px;
 }
-#shell6 {position: absolute; top: 1910px; left:521px; box-shadow: inset 2px 2px 9px rgba(0,0,0,0.3);}
+#shell6 {position: absolute; top: 1910px; left:521px; box-shadow: inset 2px 2px 9px rgba(0,0,0,0.4);}
 #shell7 {position: absolute; left: 736px; top: 1910px;}
 .tools {
   position: absolute;top: 200px;left: 100px;
@@ -205,7 +205,7 @@ p30:hover{opacity: 1;}
 }
 #shell8 {
   height: 590px; width: 220px;  background-color: white;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   margin-top: 20px; position: relative; top: 790px; left: 46px;
 }
 .connect {
@@ -238,7 +238,7 @@ p9 {
 .circle{
   margin-top: -25px;height: 100px;width: 100px;
   background-color: white;border-radius: 50%;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   display: flex; align-items: center; justify-content: center;
   font-size: 18px: color: #6e6e8c; 
   text-shodow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -316,7 +316,7 @@ p9 {
   position: relative;top: 1350px;left: 400px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
 }
 .wish:focus{
@@ -357,12 +357,12 @@ h10 {
   margin: 10px;z-index: 0;
   position: relative;left: 17px;top: 1540px;
   border-radius: 20px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.6);
 }
 .promise .mini{
   height: 110px;width: 240px;
   border-radius: 15px;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.3);
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,0.5);
   position: absolute;top: 25px;left: 25px;
   transition: all 0.3s ease;
 }
@@ -401,7 +401,7 @@ p45 {
   position: relative;top: 2150px;left: 15px;
   border-radius: 25px;
   margin: 10px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
   z-index: 1;
 }
 #h11 {
@@ -411,7 +411,7 @@ p45 {
   height: 60px;width: 60px;
   border-radius: 50%;
   background-color: white;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   position: absolute;top: 120px;left: 220px;
   cursor: pointer;
   display: flex;
@@ -423,7 +423,7 @@ p45 {
 .hidden-div {
   height: 320px;width: 240px;
   background-color: white;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
   display: none;
   z-index: 10;
   border-radius: 20px;
