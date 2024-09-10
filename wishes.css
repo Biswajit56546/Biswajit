@@ -9,7 +9,7 @@ body {
   margin-top: 0px;
   background: url(https://assets.onecompiler.app/42pumarae/42rksqf2g/1000019904.jpg);
   z-index: 0;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 .sub-banner {
   height: 480px; width: 670px;
