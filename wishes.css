@@ -39,12 +39,24 @@ body {
 .circle:hover {
   transform: translatey(-100px) rotate(360deg);
 }
-  
+.circle:hover {
+  transform: translatey(-100px) rotate(360deg);
+}
+#circle-1 {
+    display: flex; align-items: center; justify-content: center;
+    padding: 10px 10px;
+} 
 #circle-2 {
-  height: 80px; width: 80px;
+  height: 80px; width: 80px; padding: 5px 5px;
   background: linear-gradient(to top left, #afd9e7, white);
-  top: -50px; left: 76%;
+  top: -50px; left: 76%; display: flex; align-items: center; justify-content: center;
   box-shadow: 20px 10px 40px rgb(175, 217, 231, 0.4);
+}
+#circle-2:hover {
+  transform: translatex(-100px);
+}
+#circle-2:hover .p {
+ opacity: 1; 
 }
 button {
   height: 35px; width: 80px;
@@ -62,8 +74,28 @@ button:hover {
   background: linear-gradient(350deg, #45afaa, #c2ebe7);
   font-size: 12px;
 }
-
-
+.circle-3 {
+  height: 150px; width: 150px;
+  border-radius: 50%;
+  opacity: 0; font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+  color: white; padding: 10px 10px;
+  position: absolute; top: -200px; left: -25px;
+  background: linear-gradient(350deg, #c2ebe7, #afd9e7);
+  transition: all 1s ease;
+}
+.button:hover .circle-3 {
+  transform: rotatex(360deg);
+  opacity: 1;
+  background: linear-gradient(to top left, #afd9e7, #c2ebe7);
+}
+.p {
+  font-size: 12px; color: white; opacity: 0;
+  transition: all 1s ease; 
+}
+#circle-1:hover .p {
+  opacity: 1;
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -73,12 +105,10 @@ button:hover {
   right: 10px;
   align-items: center;
 }
-
 .menu.open .dot:nth-child(1) {
     transform: rotate(45deg) translateY(13px);
     opacity: 1;
 }
-
 .menu.open .dot:nth-child(2) {
     transform: rotate(-45deg) translateY(-13px);
     opacity: 1;
