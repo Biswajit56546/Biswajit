@@ -23,31 +23,3 @@ document.querySelector('.content').onclick = function(event) {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('button').addEventListener('click', function() {
-        // Toggle visibility for the h2, hr, and other elements
-        document.querySelector('h20').classList.toggle('hidden');
-        document.querySelector('hr').classList.toggle('hidden');
-        document.querySelector('.text-input').classList.toggle('hidden');
-        document.querySelector('.hidden').classList.toggle('hidden');
-        document.querySelector('.submit-btn').classList.toggle('hidden');
-        
-        // Get all elements with class "photo"
-        let photos = document.querySelectorAll('.photo');
-        
-        // Loop through all elements and toggle their visibility
-        photos.forEach(function(photo) {
-            photo.classList.toggle('hidden');
-        });
-        
-        // After toggling visibility, refresh AOS to re-trigger animations
-        AOS.refresh();
-
-        // Change the button text
-        if (this.textContent === 'Show Content') {
-            this.textContent = 'Click';
-        } else {
-            this.textContent = 'Show Content';
-        }
-    });
-});
