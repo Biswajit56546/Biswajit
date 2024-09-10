@@ -25,7 +25,7 @@ body{
   animation-play-state: paused;
 }
 .home-icon {
-  height: 60px; width: 530px;
+  height: 60px; width: 550px;
   background-color: white;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3); border-radius: 25px;
   position: absolute; top: 40px; left: 40px;
