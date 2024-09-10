@@ -240,9 +240,4 @@ hr {
 .bg-primary {background-color: rgb(30, 0, 255);}
 .bg-teal {background-color: rgb(255, 72, 173);}
 .bg-purple {background-color: rgb(140, 0, 215);}
-.hidden {
-  display: none;
-}
-.text-input {
-  display: block;
-}
+
