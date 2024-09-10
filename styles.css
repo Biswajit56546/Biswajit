@@ -31,9 +31,10 @@ body{
   position: absolute; top: 40px; left: 40px;
 }
 .home-icon a {
-  font-size: 23px;
+  font-size: 22px;
   padding-inline: 34px; pointer: cursor;
   display: inline-block; position: relative; top: 15px; z-index: 0;
+  text-decoration: none;
 }
 .home-icon a:hover {
   background-color: white; height: 40px;
