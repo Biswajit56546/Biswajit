@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('h20').classList.toggle('hidden');
         document.querySelector('hr').classList.toggle('hidden');
         document.querySelector('.text-input').classList.toggle('hidden');
+        document.querySelector('.hidden').classList.toggle('hidden');
         document.querySelector('.submit-btn').classList.toggle('hidden');
         
         // Get all elements with class "photo"
