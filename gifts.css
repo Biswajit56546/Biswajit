@@ -116,11 +116,11 @@ text {
   border: 1px solid #8436e8;
 }
 .submit-btn {
-  height: 50px;width: 110px;
+  height: 64px;width: 130px;
   color: black;
   outline: none;
   border: none; font-size: 23px;
-  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  background: linear-gradient(to top right, #7d2ae8, white);
   border-radius: 20px;
   box-shadow: 2px 2px 5px black;
   position: absolute;top: 2850px;left: 600px;
@@ -229,6 +229,6 @@ text {
   opacity: 1;
 }
 .claim:hover::after{
-  animation: top 60s ease-in-out;
+  animation: bottom 60s ease-in-out;
   opacity: 1;
 }
