@@ -50,28 +50,3 @@ function changeText4() {
     changeTextAndPosition('cb4', '2260px', '170px'); // Example position for button 4
 }
 
-
-
-
-
-
-
-
-
-// Function to add the click event and animation for each button
-function addClaimAnimation(button) {
-  button.addEventListener("click", (e) => {
-    e.preventDefault();
-    button.classList.add("animate");
-
-    setTimeout(() => {
-      button.classList.remove("animate");
-    }, 600); // Animation lasts for 600ms
-  });
-}
-
-// Loop through each button ID and apply the animation
-for (let i = 1; i <= 4; i++) {
-  const claimButton = document.getElementById(`cb${i}`);
-  addClaimAnimation(claimButton);
-}
