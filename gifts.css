@@ -1,0 +1,165 @@
+* {
+  marigin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 3000px; width: 100%;
+}
+.bokeh {
+  height: 350px; width: 220px;
+  position: absolute; left: 270px; top: 70px;
+  z-index: 60; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  animation: telt 15s ease infinite; opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
+.bokeh:hover {
+  height: 1000px; width: 750px;
+  opacity: 1; left: 20px; 
+}
+@keyframes telt {
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(-20deg);}
+  50%{transform: rotate(0deg);}
+  75%{transform: rotate(20deg);}
+  100%{transform: rotate(0deg);}
+}
+
+.main {
+  height: 950px; width: 94%;
+  background-color: white;
+  margin: 0px;
+  position: relative; left: 3%;
+  z-index: 1; border-radius: 20px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+.banner {
+  height: 250px; width: 100%;
+  position: relative; top: 4.5%;
+  background-color: #c9adc6;
+  z-index: 0;
+}
+.sub-banner-1 {
+  height: 410px; width: 260px;
+  background-color: #e0dedf;
+  position: absolute; top: 88px;left: 130px;
+}
+.sub-banner-2 {
+  height: 270px; width: 260px;
+  background-color: #ad8ead;
+  transition: all 0.5s ease-in-out;
+  position: absolute; top: 160px;  left: 570px;
+}
+.sub-banner-2:hover {
+  transform: scale(1.2);
+}
+h20 {
+  font-weight: bold;
+  color: #6e6e8c;
+  z-index: 10; font-family: "Roboto", sans-serif;
+  text-transform: Uppercase; letter-spacing: 3px;
+  position: absolute;top: 640px; left: 58px;
+  user-select: none;
+}
+.shell{
+  height: 500px; width: 410px;
+  background-color: white;
+  position: relative; top: 100px; left: 50px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  border-radius: 30px;
+}
+#shell12 { margin-left: 48px;}
+#shell14 { margin-left: 48px; margin-top: 150px;}
+#shell13 { margin-top: 150px;}
+.h1 {
+  font-size: 40px;
+  position: absolute; top: 300px; left: 20px;
+  color: #6e6e8c;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+.p1 {
+  font-size: 19px;
+  position: absolute; top: 340px; left: 22px; margin-right: 10px;
+  color: #8484a8;
+  user-select: none;
+}
+#t-1 { z-index: 1;}
+#t-2 {z-index: 10;
+  margin-top: -1160px;
+}
+text {
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #6e6e8c;
+  user-select: none;
+  position: absolute;top: 49%;left: 65px;;
+}
+#shell15 {transition: opacity 3s ease;}
+#shell16 { margin-left: 48px; transition: opacity 2s ease;}
+#shell18 { margin-left: 48px; margin-top: 150px; transition: opacity 2s ease;}
+#shell17 { margin-top: 150px; transition: opacity 2s ease;}
+#shell15.invisible { opacity: 0;}
+#shell16.invisible { opacity: 0;}
+#shell17.invisible { opacity: 0;}
+#shell18.invisible { opacity: 0;}
+.text-input {
+  height: 280px;width: 580px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 150px rgba(0,0,0,0.4);
+  outline: none;border: none;
+  text-decoration: none; font-size: 26px;
+  padding: 30px 30px;
+  position: absolute;top: 2590px;left: 22%;
+}
+.text-input:focus {
+  border: 1px solid #8436e8;
+}
+.submit-btn {
+  height: 50px;width: 110px;
+  color: black;
+  outline: none;
+  border: none; font-size: 23px;
+  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+  position: absolute;top: 2850px;left: 600px;
+  transition: transform 0.5s ease;
+}
+.submit-btn:hover {
+  transform: scale(1.06);
+  background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+}
+.claim-btn {
+  height: 60px; width: 140px;
+   background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  position: absolute; margin-top: 120px;
+  border-radius: 30px; left: 185px;
+  font-size: 20px; color: black;
+  display: flex; user-select: none;
+  transition: all 0.6s ease;
+  justify-content: center; align-items: center;
+}
+#cb2 {margin-left: 475px;}
+#cb4 {margin-left: 475px;}
+#cb1.invisible {
+  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  transform: scale(1.04);
+  color: black;
+}
+#cb2.invisible {
+  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  transform: scale(1.04);
+  color: black;
+}
+#cb3.invisible {
+  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  transform: scale(1.04);
+  color: black;
+}
+#cb4.invisible {
+  background: linear-gradient(to bottom, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  transform: scale(1.04);
+  color: black;
+  }
