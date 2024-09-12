@@ -129,17 +129,17 @@ button:hover {
   left: 0px;
   background-color: white;
   color: white;
-  width: 92%; z-index: 1;
-  height: 1300px;
-  display: none;
+  width: 90%; z-index: 1;
+  max-height: 0px;
+  display: block;
   border-radius: 25px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
   transform: translateX(10%);
   opacity: 0;
-  transition: transform 0.4s ease, opacity 0.4s ease;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
 }
 .content.show {
-  display: block;
+  max-height: 2300px;
   transform: translateX(0%);
   opacity: 1;
 }
