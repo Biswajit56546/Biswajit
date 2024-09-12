@@ -213,7 +213,7 @@ text {
 }
 .submit-btn:hover {
   transform: scale(1.06);
-  background: linear-gradient(to top, rgba(215, 187, 212, 255), rgba(255, 255, 255, 1));
+  background: linear-gradient(to bottom left, #7d2ae8, white);
 }
 .claim {
   padding: 17px 40px;
