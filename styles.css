@@ -483,8 +483,8 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   left: 0px;
   background-color: white;
   color: white;
-  width: 92%;
-  max-height: 0px
+  width: 90%;
+  max-height: 0px;
   display: block;
   overflow: hidden;
   border-radius: 25px;
