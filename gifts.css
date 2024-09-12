@@ -202,7 +202,7 @@ text {
 }
 .submit-btn {
   height: 64px;width: 130px;
-  color: black;
+  color: white;
   outline: none;
   border: none; font-size: 23px;
   background: linear-gradient(to top right, #7d2ae8, white);
