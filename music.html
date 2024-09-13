@@ -1,0 +1,109 @@
+<!doctype html>
+<html> 
+ <head> 
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" href="music.css"> 
+  <script src="music.js"></script> 
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script> 
+ </head> 
+ <body> 
+   <div class="menu" onclick="toggleMenu(event)"> 
+   <div class="dot"></div>
+   <div class="dot"></div>
+  </div> 
+  <div class="content"> <a href="#">Home</a><p1 class="a"> 
+   </p1> <a href="#">Wishes</a><p2 class="a" style="top: 100px; right: 30px;">
+   </p2> <a href="#">Song</a><p3 class="a" style="top: 175px; right: 30px"> 
+   </p3> 
+  </div>
+   
+  <div class="circle-2"></div> 
+  <div class="circle-2"></div> 
+  <div class="banner-1-overlay"> 
+   <div class="banner-1"> <h class="h1">
+      Melody For You 
+    </h> 
+    <p class="p1">(for yours ear only)</p> 
+   </div> 
+  </div> 
+  <div class="banner-2"> <h class="h2">
+     Songs 
+   </h> 
+   <p class="p2">I’ve chosen these songs because each one carries a message, message jo kabhi bolne me struggle krta hu. Toh Every song, is a reflection of my love for you. As I sing, I hope you feel the warmth, These songs are not just music; they are my way of telling you how much you special for me"</p> <h class="h2" style="top: 360px;">
+     Lyrics 
+   </h> 
+   <p class="p2" style="top: 410px;">"Every lyric has been chosen just to make you feel what you are and what you mean to me. Haan, kuch language samajh nahi aayegi, I know, but baad mein poochegi toh bata dunga. Mene phir bhi ye gane liye haiii kyu ki unke meanings bht ache hain. So... love you!..........</p> 
+   <div class="banner-2-img-overlay" style="height: 380px; width: 300px; border-radius: 80px;"> 
+    <div class="banner-2-img-1"> 
+     <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020275.jpg" style="height: 380px; width: 300px; border-radius: 80px;"> 
+    </div>
+   </div> 
+   <div class="banner-2-img-2"> 
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020288.jpg" style="height: 155px; width: 165px; border-radius: 25px;"> 
+   </div> 
+   <div class="banner-2-img-3"> 
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020291.jpg" style="height: 80px; width: 80px; border-radius: 10px;">
+   </div> 
+   <div class="banner-2-img-4"> 
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020292.jpg" style="height: 155px; width: 165px; border-radius: 25px;">
+   </div> 
+  </div> 
+  <div class="banner-3"> 
+   <div class="circle circle1">
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020313.png" style="height: 80px; width: 80px; filter: drop-shadow(0px 0px 25px rgba(255,255,255,1));">
+   </div> 
+   <div class="circle circle2">
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020314.png" style="height: 80px; width: 80px; filter: drop-shadow(0px 0px 25px rgba(255,255,255,1));">
+   </div> 
+   <div class="circle circle3">
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020315.png" style="height: 80px; width: 80px; filter: drop-shadow(0px 0px 25px rgba(255,255,255,1));">
+   </div> 
+   <div class="banner-3-img"> 
+    <img src="https://assets.onecompiler.app/42pumarae/42ryczn5c/1000020304.png" style="height: 400px; width: 450px;">
+   </div> 
+  </div>
+  <div class="home-icon"> <a>Home</a> <a href="wishes.html">Wishes</a> <a href="gifts.html">Gifts</a> <a>Text</a> 
+  </div>
+ 
+      <div class="heading">
+         
+      </div> 
+    <button class="click-btn" id="revealButton" onclick="revealContent()">Click Here</button> 
+       <audio controls class="music" id="m1"> 
+         <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m2"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m3"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m4"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m5"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m6"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m7"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m8"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m9"> 
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <audio controls class="music" id="m10">
+       <source src="" type="audio/mpeg"> 
+       </audio> 
+       <form action="https://api.web3forms.com/submit" method="POST"> 
+        <input type="hidden" name="access_key" value="4f1b5b02-957f-419c-ab70-cdd04543479d"> 
+        <textarea name="message" placeholder="Make a Wish......." class="text-input"></textarea> 
+        <button type="submit" class="submit-btn">Make</button> 
+       </form> 
+ </body>
+</html>
