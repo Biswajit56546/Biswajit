@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background: linear-gradient(to top, #070a29, #232057);
+  height: 5500px; width: 100%;
+}
+.main {
+  height: 500px; width: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+.circle {
+  border-radius: 50%; position: absolute;
+}
+#circle-1 {
+    height: 500px; width: 500px;
+    background-color: #4666dd; top: -150px; left: -150px;
+    filter: blur(150px); opacity: 0.7;
+}
+#circle-2 {
+    height: 300px; width: 300px;
+    background-color: #751695; top: -100px; right: 20px;
+    filter: blur(80px); opacity: 0.8;
+}
+#circle-3 {
+    height: 300px; width: 200px;
+    background-color: blue; top: 100px; right: 0px;
+    border-radius: 80% 0px 0px 80%;
+    filter: blur(150px); z-index: 1; opacity: 0.6;
+}
+#circle-4 {
+    height: 150px; width: 160px;
+    background-color: #751695; top: 100px; right: 680px;
+    filter: blur(90px); opacity: 0.8;
+    z-index: 0;
+}
+.h1 {
+  background: linear-gradient(to left, #c636b2, #6b62b9, #54c4e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 42px; font-weight: 700;
+  text-transform: Uppercase;
+  position: absolute; top: 680px; left: 50px;
+}
+.p1 {
+  color: white; font-size: 20px;
+  position: absolute; top: 750px; left: 50px;
+  margin-right: 520px; text-align: justify;
+}
+.img-1 {
+  position: relative; top: 200px; right: 0px;
+}
+
+.main-2 {
+  height: 380px; width: 100%;
+  background: transparent;
+  position: relative; top: 800px;
+}
+.img-2 {
+  height: 280px; width: 200px;
+  position: absolute; top: 120px;left: 50px;
+  background: linear-gradient(to top right, #4666dd, #751695);
+  border-radius: 0px 60px 0px 0px;
+}
+.img-3 {
+  height: 150px; width: 150px;
+  position: absolute; top: 90px;left: 280px;
+  background: linear-gradient(to bottom left, #4666dd, #751695);
+  border-radius: 0px 40px 0px 0px;
+}
+.img-4 {
+  height: 150px; width: 150px;
+  position: absolute; top: 280px;left: 280px;
+  background: linear-gradient(to bottom right, #4666dd, #751695);
+  border-radius: 40px 0px 0px 0px;
+}
+.card {
+  height: 200px; width: 100%;
+  position: relative; top: 1700px; display: flex;
+  perspective: 2500px; padding: 0 36px;
+  border-radius: 30px; background-color: transparent;
+}
+.wrapper {
+  position: absolute;
+  transition: all 0.5s;
+  height: 200px; width: 86%;
+  background: black; left: 7%;
+  border-radius: 15px;
+  box-shadow: rgba(0,0,0,0.25) 0px 14px 28px, rgba(0,0,0,0.22) 0px 10px 10px;
+}
+.wrapper img {
+  border-radius: 15px;
+  box-shadow: rgba(0,0,0,0.25) 0px 14px 28px, rgba(0,0,0,0.22) 0px 10px 10px;
+}
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-10%) rotateX(50deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0,0,0,0.75);
+}
+.wrapper::before,
+.wrapper::after {
+  content: "";
+  opacity: 0;
+  width: 100%; height: 80px;
+  transition: all 0.7s ease;
+  border-radius: 30px;
+  position: absolute;
+  box-shadow: rgba(0,0,0,0.25) 0px 14px 28px, rgba(0,0,0,0.22) 0px 10px 10px;
+  left: 0;
+}
+.wrapper::before {
+  height: 100%;
+   top: 0;
+  background-image: linear-gradient(to bottom, transparent 46%, rgba(12,13,19,0.5) 68%, rgba(12,13,19) 97%);
+ }
+.wrapper::after {
+  opacity: 1;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, transparent 46%, rgba(12,13,19,0.5) 68%, rgba(12,13,19) 97%);
+ }
+.card:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+.card:hover .wrapper::after {
+  height: 120px;
+}
+.cover-image {
+  height: 100%;
+  width: 100%;
+  over-fit: cover;
+}
+.card:hover .cover-image {
+  opacity: 0.3;
+}
+.character {
+  height: 100px; width: 100px;
+  opacity: 1; right: 100px; top: 35px;
+  transition: all 0.7s ease;
+  filter: drop-shadow(2px 2px 2px #000);
+  position: absolute;
+  z-index: 10;
+}
+.card:hover .character {
+  opacity: 1; right: 100px;
+  transform: translate3d(10%, -98%, -200px);
+}
+.logo {
+  height: 80px; width: 80px;
+   transition: all 0.7s ease;animation: roll 20s infinite;
+  position: absolute; top: 61px; left: 163px;
+}
+.card:hover .logo {
+  top: -17px; left: 260px;
+ }
+@keyframes roll {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(630deg);}
+  } 
+.song-img {
+  height: 80px; width: 80px;
+  position: absolute;
+  border-radius: 10px;
+  transition: all 0.7s ease;
+}
+.card:hover .song-img{
+  transform: scale(1.1) translatey(-130px);
+   margin: 5px;
+}
+h4 {
+  font-size: 5px;
+  font-family: "Roboto", sans-serif;
+  text-transform: Uppercase;
+  transition: all 0.7s ease; opacity: 0;
+  color: white; position: absolute; top: 60px; left: 48%;
+}
+.card:hover h4 {
+  font-size: 28px;
+  top: -78px; left: 300px; opacity: 1; letter-spacing: 1px;
+}
+.button {
+  height: 75px; width: 130px;
+  border-radius: 22px; position: relative; top: 1750px; left: 43.4%;
+  background: linear-gradient(to top left, #4666dd, #751695); 
+  user-select: none;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.glove {
+  animation: hang 17s linear infinite;
+  opacity: 0.8;
+  position: absolute; top: -30px; left: 130px;
+}
+#glove-1 {
+  top: -70px; left: 550px;
+}
+#glove-2 {
+  top: -70px; left: 750px;
+  opacity: 0.4;
+}
+#glove-3 {
+  top: -70px; left: 250px;
+}
+@keyframes hang {
+  0% {filter: grayscale(0);}
+  9.5% {filter: grayscale(0);}
+  10% {filter: grayscale(100%);}
+  12% {filter: grayscale(0);}
+  15% {filter: grayscale(100%);}
+  16% {filter: grayscale(0);}
+  16.5% {filter: grayscale(100%);}
+  30% {filter: grayscale(100%);}
+  31% {filter: grayscale(0);}
+  31.5% {filter: grayscale(100%);}
+  32% {filter: grayscale(0);}
+  33% {filter: grayscale(100%);}
+  34.5% {filter: grayscale(0);}
+  35% {filter: grayscale(100%);}
+  36% {filter: grayscale(0);}
+  65% {filter: grayscale(0);}
+  65.5% {filter: grayscale(100%);}
+  67% {filter: grayscale(0%);}
+  67.8% {filter: grayscale(100%);}
+  70% {filter: grayscale(0%);}
+  75% {filter: grayscale(0%);}
+  75.5% {filter: grayscale(100%);}
+  90% {filter: grayscale(100%);}
+  91% {filter: grayscale(0%);}
+  92.5% {filter: grayscale(100%);}
+  93.5% {filter: grayscale(0%);}
+  94% {filter: grayscale(100%);}
+  95% {filter: grayscale(0);}
+}
