@@ -30,6 +30,7 @@ body {
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,1);
   border-radius: 2px;
+  margin-top: 14px;
   transition: transform 0.5s ease;
   position: relative; top: 10px;right: 20px;
 }
@@ -50,14 +51,15 @@ body {
   transition: opacity 0.6s ease, max-height 0.6s ease;
 }
 .content.show {
-  max-height: 1300px;
+  max-height: 1300px; height: 1650px;
   transform: translateX(0%);
   opacity: 1;
 }
 .content a {
   color: black;
   font-size: 30px;
-  padding: 40px 50px;
+  padding: 60px 50px; font-weight: 400; letter-spacing: 2px;
+  font-family: "Calibri", "Arial", sans-serif;
   text-decoration: none;
   display: block; user-select: none;
 }
@@ -71,6 +73,12 @@ body {
   position: absolute; 
   top: 20px; right: 30px; 
   font-size: 20px; user-select: none;
+}
+.straight-line {
+  height: 1px; width: 80%;
+  background-color: black;
+  margin-top: 155px; position: relative; top: -1558px;
+  display: block; user-select: none; left: 50px;
 }
 .home-icon {
   height: 60px; width: 525px;
