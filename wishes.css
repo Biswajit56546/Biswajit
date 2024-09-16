@@ -143,7 +143,7 @@ button:hover {
 .content.show {
   max-height: 2300px; height: 1650px;
   transform: translateX(0%);
-  opacity: 1; z-index: 50;
+  opacity: 1; z-index: 100;
 }
 .content a {
   color: black;
