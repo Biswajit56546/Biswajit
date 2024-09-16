@@ -474,6 +474,7 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0,0,0,1);
   border-radius: 2px;
+  margin-top: 14px;
   transition: transform 0.5s ease;
   position: relative; top: 20px;right: 10px;
 }
@@ -483,7 +484,7 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   left: 0px;
   background-color: white;
   color: white;
-  width: 90%;
+  width: 92%;
   max-height: 0px;
   display: block;
   overflow: hidden;
@@ -502,7 +503,7 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
 .content a {
   color: black;
   font-size: 30px;
-  padding: 40px 50px;
+  padding: 60px 50px;
   text-decoration: none;
   font-family: "Calibri", "Arial", sans-serif;
   font-weight: 400;
