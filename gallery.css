@@ -119,6 +119,25 @@ p{
   transform: translateX(0%);
   opacity: 1; z-index: 10;
 }
+.content a {
+  color: black;
+  font-size: 30px;
+  padding: 60px 50px; font-weight: 400; letter-spacing: 2px;
+  font-family: "Calibri", "Arial", sans-serif;
+  text-decoration: none;
+  display: block; user-select: none;
+}
+.content a:hover {
+  background-color: #F0E8F4;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.a {
+  color: black; 
+  position: absolute; 
+  top: 20px; right: 30px; 
+  font-size: 20px; user-select: none;
+}
 
 .straight-line {
   height: 1px; width: 80%;
