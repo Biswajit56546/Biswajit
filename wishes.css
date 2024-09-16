@@ -8,7 +8,7 @@ body {
   position: relative; opacity: 0.7;
   margin-top: 0px;
   background: url(https://assets.onecompiler.app/42pumarae/42rksqf2g/1000019904.jpg);
-  z-index: 0;
+  z-index: -10;
   overflow: hidden !important;
 }
 .sub-banner {
@@ -168,7 +168,7 @@ button:hover {
   height: 45px; width: 410px;
   background-color: white;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3); border-radius: 25px;
-  position: absolute; top: 30px; left: 10px;
+  position: absolute; top: 20px; left: 10px;
   z-index: 0;
   background: linear-gradient(to left, white, #c2ebe7);
 }
