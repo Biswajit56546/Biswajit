@@ -44,7 +44,6 @@ body{
 }
 .box1 {
   height: 490px; width: 780px;
-  pointer-events: none;
   position: absolute; top: 150px; left: 110px;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
