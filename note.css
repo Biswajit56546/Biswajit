@@ -14,7 +14,7 @@ body {
   display: flex;align-items: center;justify-content: center;
   height: 950px;width: 800px;
   background: transparent;
-  position: relative; top: 400px;left: 80px;
+  position: relative; top: 400px;left: 88px;
   padding: 3px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
