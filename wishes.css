@@ -129,26 +129,27 @@ button:hover {
   left: 0px;
   background-color: white;
   color: white;
-  width: 90%; z-index: 1;
+  width: 92%; z-index: 1;
   max-height: 0px;
   overflow: hidden;
   display: block;
   border-radius: 25px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-  transform: translateX(10%);
+  transform: translateX(0%);
   opacity: 0;
   transition: max-height 0.4s ease, opacity 0.4s ease;
 }
 .content.show {
-  max-height: 2300px;
+  max-height: 2300px; height: 1650px;
   transform: translateX(0%);
   opacity: 1;
 }
 .content a {
   color: black;
   font-size: 30px;
-  padding: 40px 50px;
-  text-decoration: none;
+  padding: 60px 50px;
+  font-weight: 400; font-family: "Calibri", "Arial", sans-serif;
+  text-decoration: none; letter-spacing: 2px;
   display: block; user-select: none;
 }
 .content a:hover {
@@ -169,6 +170,12 @@ button:hover {
   position: absolute; top: 36px; left: 10px;
   z-index: 1;
   background: linear-gradient(to left, white, #c2ebe7);
+}
+.straight-line {
+  height: 1px; width: 80%;
+  background-color: black;
+  margin-top: 155px; position: relative; top: -1558px;
+  display: block; user-select: none; left: 50px;
 }
 .home-icon a {
   font-size: 18px;
