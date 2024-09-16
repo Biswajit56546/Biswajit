@@ -219,6 +219,9 @@ p30:hover{opacity: 1;}
   transform: scale(1.1) !important;
   background: linear-gradient(to top right, #d6f0ff, white);
 }
+a {
+  text-decoration: none;
+}
 p9 {
   font-size: 20px; color: #8484a8; user-select: none;
   position: absolute;top: 9px;left: 30px;
