@@ -88,7 +88,7 @@ body {
 }
 .home-icon a {
   font-size: 22px;
-  padding-inline: 34px; pointer: cursor;
+  padding-inline: 31px; pointer: cursor;
   display: inline-block; position: relative; top: 15px; z-index: 0;
   text-decoration: none;
 }
@@ -102,7 +102,7 @@ body {
   height: 350px; width: 220px;
   position: absolute; left: 270px; top: 70px;
   z-index: 60; text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  animation: telt 15s ease infinite; opacity: 0.6;
+  animation: telt 40s ease infinite; opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .bokeh:hover {
