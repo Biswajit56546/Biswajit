@@ -22,9 +22,8 @@ p{
 background: linear-gradient(to bottom right, #D6F0FF, rgba(255, 255, 255, 1));
   border-radius: 25px; z-index: 2;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-  position: absolute;top: 570px; left: 100px;
+  position: absolute;top: 570px; left: 20px;
   display: flex; align-items: center; justify-content: center;
-  margin-left: 100px;
   transition: transform 0.5s ease;
 }
 .upload-img-btn {
