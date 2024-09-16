@@ -83,10 +83,10 @@ body {
   display: block; user-select: none; left: 50px;
 }
 .home-icon {
-  height: 60px; width: 525px;
+  height: 60px; width: 533px;
   background-color: white; z-index: 30;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3); border-radius: 28px;
-  position: absolute; top: 1606px; left: 220px;
+  position: absolute; top: 1606px; left: 216px;
 }
 .home-icon a {
   font-size: 22px;
