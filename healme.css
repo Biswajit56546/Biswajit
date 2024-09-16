@@ -232,7 +232,7 @@ background: linear-gradient(to bottom right, #D6F0FF, rgba(255, 255, 255, 1));
   left: 0px;
   background-color: white;
   color: white;
-  width: 92%; z-index: 1;
+  width: 92%; z-index: 70;
   max-height: 0px;
   overflow: hidden;
   display: block;
