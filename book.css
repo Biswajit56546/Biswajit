@@ -5,11 +5,12 @@
 }
 body {
   height: 2000px;
-  background-color: green;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 .main {
   height: 1050px;
