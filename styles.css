@@ -357,7 +357,7 @@ h10 {
 }
 .promise {
   height: 160px; width: 290px;
-  background-color: white;
+  background-color: #091114;
   margin: 10px;z-index: 0;
   position: relative;left: 17px;top: 1540px;
   border-radius: 20px;
@@ -365,7 +365,7 @@ h10 {
 }
 .promise .mini{
   height: 110px;width: 240px;
-  border-radius: 15px;
+  border-radius: 15px; background-color: #091114;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,0.5);
   position: absolute;top: 25px;left: 25px;
   transition: all 0.3s ease;
@@ -375,7 +375,7 @@ h10 {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 p45 {
-  font-size: 15px; color: #8484a8; user-select: none;
+  font-size: 15px; color: white; user-select: none;
   position: absolute;top: 9px;left: 10px;right: 5px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
@@ -383,11 +383,14 @@ p45 {
   height: 100%;width: 100%;
   border-radius: 15px;
   outline: none;border: none;
-  padding: 8px;
+  padding: 13px 13px; font-size: 15px;
+}
+textarea::placeholder{
+  font-size: 19px;
 }
 .submit-btn {
   height: 40px;width: 90px;
-  color: #8484a8;
+  color: #8484a8; font-size: 17px;
   outline: none;
   border: none;z-index: 1;
   background-color: white;
@@ -401,7 +404,7 @@ p45 {
 }
 .sayari{
   height: 160px; width: 290px;
-  background-color: white;
+  background-color: #091114;
   position: relative;top: 2150px;left: 15px;
   border-radius: 25px;
   margin: 10px;
@@ -425,8 +428,8 @@ p45 {
   color: #6e6e8c;
 }
 .hidden-div {
-  height: 320px;width: 240px;
-  background-color: white;
+  height: 330px;width: 265px;
+  background-color: #091114;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
   display: none;
   z-index: 10;
@@ -811,3 +814,13 @@ h12 {position: absolute;top: 30px;left: 30px; font-size: 50px; font-width: bold;
   transform: translate(-50%, -50%) scale(1, 1);
   opacity: 1;
 }
+p47 {
+  font-size: 15px; color: white; position: absolute;
+  top: 20px; left: 15px; user-select: none;
+  line-height: 1.6;
+}
+p46 {
+  font-size: 16px; color: white; position: absolute;
+  top: 40px; left: 15px; user-select: none;
+}
+
