@@ -122,7 +122,7 @@ button:hover {
   margin-top: 15px;
   transition: transform 0.5s ease;
   position: relative; top: 10px;right: 10px;
-  z-index: 10;
+  z-index: 50;
 }
 .content {
   position: absolute;
