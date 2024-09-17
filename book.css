@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 2000px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  height: 1050px;
+  width: 700px;
+  position: relative;
+  perspective: 2000px; /* Perspective for the 3D flip */
+}
+.img {
+  height: 1050px;
+  width: 700px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+  transform-origin: left center; /* Set the fold origin point */
+  transform: rotateY(0); /* Default state */
+  transition: transform 1.5s ease, opacity 0.5s ease; /* Smooth transition for fold and opacity */
+}
+.img.active {
+  opacity: 1;
+  transform: rotateY(0); /* Normal appearance */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+}
+.img.outgoing {
+  opacity: 0;
+  transform: rotateY(-120deg) skewX(-10deg); /* Page fold effect (folds left with a skew) */
+  box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.4); /* Shadow to give depth during fold */
+  transition: transform 1s ease, opacity 1s ease;
+}
+.img.incoming {
+  opacity: 0;
+  transform: rotateY(120deg) skewX(10deg); /* Incoming page starts from behind with a slight wave */
+  transition: transform 1s ease, opacity 1s ease;
+}
+.img.show {
+  opacity: 1;
+  transform: rotateY(0) skewX(0); /* Final state without skew or rotation */
+  transition: opacity 1s ease, transform 1s ease;
+}
+.nav-bar {
+  margin-top: 50px;
+  z-index: 10; backdrop-filter: blur(10px);
+}
+.nav-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  align-items: center;
+}
+.menu.open .dot:nth-child(1) {
+    transform: rotate(45deg) translateY(13px);
+    opacity: 1;
+}
+.menu.open .dot:nth-child(2) {
+    transform: rotate(-45deg) translateY(-13px);
+    opacity: 1;
+}
+.dot {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0,0,0,1);
+  border-radius: 2px;
+  margin-top: 15px;
+  transition: transform 0.5s ease;
+  position: relative; top: 10px;right: 10px;
+  z-index: 10;
+}
+.content {
+  position: absolute;
+  top: 47px;
+  left: 0px;
+  background-color: white;
+  color: white;
+  width: 92%; z-index: 1;
+  max-height: 0px;
+  overflow: hidden;
+  display: block;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  transform: translateX(0%);
+  opacity: 0; z-index: 10;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+.content.show {
+  max-height: 2300px; height: 1650px;
+  transform: translateX(0%);
+  opacity: 1; z-index: 10;
+}
+.content a {
+  color: black;
+  font-size: 30px;
+  padding: 60px 50px;
+  font-weight: 400; font-family: "Calibri", "Arial", sans-serif;
+  text-decoration: none; letter-spacing: 2px;
+  display: block; user-select: none;
+}
+.content a:hover {
+  background-color: #F0E8F4;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.a {
+  color: black; 
+  position: absolute; 
+  top: 20px; right: 30px; 
+  font-size: 20px; user-select: none;
+  }
+.straight-line {
+  height: 1px; width: 80%;
+  background-color: black;
+  margin-top: 155px; position: relative; top: -1558px;
+  display: block; user-select: none; left: 50px;
+}
