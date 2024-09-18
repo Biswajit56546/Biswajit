@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  height: 1000px; width: 100%;
+  height: 4000px; width: 100%;
   background-color: #fef3f4;
-  overflow: hidden;
 }
 .wrapper {
   height: 610px; width: 840px;
